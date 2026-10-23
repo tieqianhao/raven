@@ -35,8 +35,12 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: 全链路（造数 → 训练 → 评测 → 报告 → demo → 对拍 → 冒烟）
-        run: python run_all.py
+      - name: 全链路（训练 → 评测 → 报告 → demo → 对拍 → 冒烟）
+        # --skip-gen：不重新造数据集，直接用仓库里提交的那一份。
+        # 图像数据集是 Pillow 画的 JPEG，不同平台的 libjpeg 编码参数不完全一致，
+        # 重新造图会让输入像素就不同（实测 Windows→Ubuntu 上图像 F1 从 0.863 变 0.951）。
+        # 固定数据集，才能验证"同一份数据 → 同一套指标"。
+        run: python run_all.py --skip-gen
 
       - name: 校验关键指标未漂移
         # 容差说明：模型训练用 `x @ w` 走 BLAS，Windows 与 Linux 的 OpenBLAS
@@ -44,7 +48,6 @@ jobs:
         # 本地（作者机器）用默认 1e-3 严格比对；CI 跨平台放宽到 5e-3，
         # 相当于允许 1~2 条样本翻转，仍足以拦截"特征改了却没更新文档"这类真实漂移。
         run: python tools/check_metrics.py --tol 5e-3
-
       - name: 校验 PDF/DOCX 构建脚本语法（简历源文件不入库，只做编译检查）
         run: |
           python -m py_compile resume/build_docx.py resume/verify.py

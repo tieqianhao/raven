@@ -15,6 +15,17 @@ python tools/check_metrics.py # 31 项质量指标，应当全绿
 如果基线本来就红了，说明当前环境有问题（Python 版本、numpy 版本），
 先解决这个，再谈改动。
 
+**改动只涉及模型/评测、不涉及造数脚本时，建议加 `--skip-gen`**：
+
+```bash
+python run_all.py --skip-gen
+```
+
+它跳过两个造数步骤，直接用 `artifacts/dataset/` 里已提交的数据集。
+这不只是省 7 秒——图像数据集是 Pillow 画的 JPEG，不同平台的 libjpeg
+编码结果不同，重新造图会让图像侧指标整体漂移（Windows→Ubuntu 实测 F1 差 0.087）。
+CI 用的就是 `--skip-gen`，本地加它才能和 CI 对上。
+
 ## 提交前必须做
 
 ```bash

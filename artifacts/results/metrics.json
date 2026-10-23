@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23 14:57:26",
+ "generated_at": "2026-10-23 20:12:22",
  "dataset": {
   "train": {
    "n": 660,
@@ -380,8 +380,8 @@
   "explain_coverage": 0.9211,
   "recovered_rate_adv": 0.7301,
   "latency_ms": {
-   "mean": 0.455,
-   "p95": 0.628
+   "mean": 0.527,
+   "p95": 1.073
   },
   "errors": {
    "fp": 18,
@@ -486,7 +486,7 @@
     }
    ]
   },
-  "train_seconds": 9.11,
+  "train_seconds": 6.69,
   "samples": [
    {
     "id": "t00130",
@@ -886,7 +886,7 @@
     "mean_hit": 0.3042,
     "hit_over_30pct": 0.5192
    },
-   "latency_ms": 171.3
+   "latency_ms": 94.2
   },
   "per_kind": {
    "pristine": {
@@ -1027,7 +1027,7 @@
    }
   ],
   "chosen": "ELA + 噪声 + 辅助（全部）",
-  "train_seconds": 55.46,
+  "train_seconds": 34.09,
   "n_test": 104,
   "n_train": 184
  }
