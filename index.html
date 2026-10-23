@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Raven · 游戏与二次元社区内容风控引擎</title>
+<meta name="description" content="对抗性文本归一化 + 字符级模型 + 分级处置。纯 CPU、无外部 API，python run_all.py 复现全部指标。">
+<style>
+  :root{
+    --bg:#f6f7f9; --panel:#ffffff; --fg:#16181d; --muted:#6b7280;
+    --bd:#e3e6ea; --accent:#3b4cca; --accent-soft:#eef0ff;
+    --ok:#067647; --warn:#b54708;
+    --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0;background:var(--bg);color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei","PingFang SC",sans-serif;
+    line-height:1.65;-webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:860px;margin:0 auto;padding:56px 24px 72px}
+
+  /* ---------- 头部 ---------- */
+  .eyebrow{
+    font-family:var(--mono);font-size:12px;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--accent);font-weight:600;margin-bottom:14px;
+  }
+  h1{
+    font-size:40px;line-height:1.15;margin:0 0 14px;letter-spacing:-.02em;font-weight:700;
+  }
+  h1 .en{font-family:var(--mono);font-weight:700}
+  .lede{font-size:16.5px;color:var(--muted);margin:0 0 10px;max-width:640px}
+  .lede b{color:var(--fg);font-weight:600}
+  .lede code{
+    font-family:var(--mono);font-size:.9em;background:#eceff3;
+    padding:1px 5px;border-radius:4px;color:#334155;
+  }
+
+  /* ---------- 按钮 ---------- */
+  .cta{display:flex;flex-wrap:wrap;gap:10px;margin:28px 0 8px}
+  .btn{
+    display:inline-flex;align-items:center;gap:8px;
+    padding:11px 20px;border-radius:8px;text-decoration:none;
+    font-size:14.5px;font-weight:600;border:1px solid transparent;
+    transition:all .16s ease;
+  }
+  .btn-primary{background:var(--accent);color:#fff}
+  .btn-primary:hover{background:#2f3fb0;transform:translateY(-1px)}
+  .btn-ghost{background:var(--panel);color:var(--fg);border-color:var(--bd)}
+  .btn-ghost:hover{border-color:#c9cfd8;background:#fbfcfd}
+  .btn svg{flex:none}
+
+  /* ---------- 指标 ---------- */
+  .metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:36px 0 12px}
+  .metric{
+    background:var(--panel);border:1px solid var(--bd);border-radius:10px;
+    padding:16px 14px;
+  }
+  .metric .v{
+    font-family:var(--mono);font-size:22px;font-weight:700;
+    letter-spacing:-.02em;color:var(--fg);line-height:1.2;
+  }
+  .metric .k{font-size:12px;color:var(--muted);margin-top:5px;line-height:1.4}
+  .metric.note{
+    grid-column:1/-1;background:var(--accent-soft);border-color:#d8dcff;
+    font-size:13px;color:#38409e;padding:11px 14px;
+  }
+
+  /* ---------- 区块 ---------- */
+  h2{
+    font-size:13px;font-family:var(--mono);letter-spacing:.1em;text-transform:uppercase;
+    color:var(--muted);font-weight:600;margin:44px 0 16px;
+    padding-bottom:9px;border-bottom:1px solid var(--bd);
+  }
+  .cards{display:grid;gap:10px}
+  .card{
+    background:var(--panel);border:1px solid var(--bd);border-radius:10px;
+    padding:16px 18px;
+  }
+  .card .t{font-weight:600;font-size:14.5px;margin-bottom:5px}
+  .card .d{font-size:13.5px;color:var(--muted);margin:0}
+  .card .d code{
+    font-family:var(--mono);font-size:.92em;background:#f0f2f5;
+    padding:1px 4px;border-radius:3px;color:#475569;
+  }
+  .card .d b{color:#b42318;font-weight:600}
+
+  /* ---------- 边界 ---------- */
+  .boundary{
+    background:#fffbeb;border:1px solid #fde68a;border-radius:10px;
+    padding:15px 18px;font-size:13.5px;color:#78350f;line-height:1.7;
+  }
+  .boundary .h{font-weight:600;margin-bottom:6px;display:flex;align-items:center;gap:6px}
+  .boundary ul{margin:0;padding-left:18px}
+  .boundary li{margin:2px 0}
+
+  /* ---------- 页脚 ---------- */
+  footer{
+    margin-top:44px;padding-top:18px;border-top:1px solid var(--bd);
+    font-size:12.5px;color:var(--muted);
+    display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center;
+  }
+  footer a{color:var(--muted);text-decoration:none;border-bottom:1px solid var(--bd)}
+  footer a:hover{color:var(--accent);border-color:var(--accent)}
+  .tag{
+    font-family:var(--mono);font-size:11px;background:#eceff3;color:#475569;
+    padding:2px 7px;border-radius:4px;
+  }
+
+  @media (max-width:680px){
+    .wrap{padding:36px 18px 56px}
+    h1{font-size:29px}
+    .lede{font-size:15.5px}
+    .metrics{grid-template-columns:repeat(2,1fr)}
+    .btn{flex:1 1 auto;justify-content:center}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="eyebrow">Content Risk Engine · 2026</div>
+
+  <h1><span class="en">Raven</span><br>游戏与二次元社区内容风控引擎</h1>
+
+  <p class="lede">
+    社区里有人发 <code>出·原·神·外·挂·加·薇·信</code>，或者把「外挂」写成「外褂」、
+    中间夹零宽字符、用全角字母拉开——关键词规则一条都打不中。
+  </p>
+  <p class="lede">
+    这个项目做的是：<b>先把语义等价的写法折叠成规范形，再用字符级模型判决，
+    最后按置信度分级处置</b>。纯 CPU、无外部 API、无网络依赖，
+    一条命令复现全部指标。
+  </p>
+
+  <div class="cta">
+    <a class="btn btn-primary" href="demo/">
+      <svg width="15" height="15" viewBox="0 0 16 16" fill="currentColor"><path d="M4 2.5v11l9-5.5-9-5.5z"/></svg>
+      打开交互演示
+    </a>
+    <a class="btn btn-ghost" href="report.html">
+      <svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 13V8M6 13V4M10 13V6M14 13V2"/></svg>
+      看评测报告
+    </a>
+    <a class="btn btn-ghost" href="https://github.com/tieqianhao/raven">
+      <svg width="15" height="15" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+      源码
+    </a>
+  </div>
+
+  <div class="metrics">
+    <div class="metric"><div class="v">0.943</div><div class="k">干净集<br>未见模板</div></div>
+    <div class="metric"><div class="v">0.930</div><div class="k">对抗集<br>常规变形</div></div>
+    <div class="metric"><div class="v">0.951</div><div class="k">逐字符分隔<br>外·挂</div></div>
+    <div class="metric"><div class="v">0.946</div><div class="k">未登录谐音<br>词表里没有</div></div>
+    <div class="metric note">
+      以上为四套测试集上的 F1。拦截档 151 条，精确率 <b>1.000</b>，覆盖 83.9% 的违规内容，其余 6.1% 转人工复核。
+    </div>
+  </div>
+
+  <h2>三个比数字更值钱的发现</h2>
+  <div class="cards">
+    <div class="card">
+      <div class="t">逐字符分隔能把关键词规则打到 F1 = 0.000</div>
+      <p class="d">
+        <code>出·原·神·外·挂</code> 这种最土的绕过，规则层一条都检不出。
+        归一化之后回到 0.889，但字符 n-gram 模型<b>天生免疫</b>这类攻击——
+        说明归一化的价值取决于判决层依赖什么，不是一律加分。
+      </p>
+    </div>
+    <div class="card">
+      <div class="t">规则层与模型层的失败样本几乎不重合</div>
+      <p class="d">
+        所以融合后没有短板，四套测试集没有一套低于 0.93。
+        消融阶梯在报告里逐级列出，不是只报最后一档。
+      </p>
+    </div>
+    <div class="card">
+      <div class="t">模型排序对了，不等于概率可用</div>
+      <p class="d">
+        第一批模型 AUC 0.99，但输出全挤在 0.45~0.65，分档阈值形同虚设。
+        <b>只看 AUC 的评测永远发现不了这个问题</b>——这也是后来加分档表的原因。
+      </p>
+    </div>
+  </div>
+
+  <h2>边界</h2>
+  <div class="boundary">
+    <div class="h">⚠ 先说清楚，免得被问到</div>
+    <ul>
+      <li>数据是<b>合成</b>的：模板 + 槽位 + 可控扰动。真实社区分布更脏，同口径指标一定会掉。</li>
+      <li>变形手法是自造的 7 类 + 1 类未登录谐音，真实黑产花样更多。</li>
+      <li>训练样本 660 条，F1 置信区间约 ±0.03，消融之间零点几的差距不该当结论。</li>
+      <li>图像侧只在程序化海报上验证，说明"链路通了"，不说明"能上生产"。</li>
+      <li>上下文理解是原理性硬伤：误报集中在"举报语境"（提到黑产词但在举报 / 避雷）。</li>
+    </ul>
+  </div>
+
+  <footer>
+    <span class="tag">Python</span>
+    <span class="tag">numpy + Pillow</span>
+    <span class="tag">MIT</span>
+    <span>指标由 <code style="font-family:var(--mono)">tools/check_metrics.py</code> 在 CI 里回归校验</span>
+    <a href="https://github.com/tieqianhao/raven">github.com/tieqianhao/raven</a>
+  </footer>
+
+</div>
+</body>
+</html>
