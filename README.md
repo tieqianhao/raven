@@ -1,6 +1,6 @@
 # Raven · 游戏与二次元社区内容风控引擎
 
-[![CI](https://github.com/OWNER/raven/actions/workflows/ci.yml/badge.svg)](https://github.com/OWNER/raven/actions/workflows/ci.yml)
+[![CI](https://github.com/tieqianhao/raven/actions/workflows/ci.yml/badge.svg)](https://github.com/tieqianhao/raven/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python 3.12+](https://img.shields.io/badge/python-3.12%2B-blue.svg)](https://www.python.org/)
 [![Dependencies: numpy + Pillow](https://img.shields.io/badge/deps-numpy%20%2B%20Pillow-informational.svg)](requirements.txt)
@@ -14,7 +14,7 @@
 并且用四套测试集把这套东西的真实水位量出来。
 
 ```bash
-git clone <本仓库地址> && cd raven
+git clone https://github.com/tieqianhao/raven.git && cd raven
 pip install -r requirements.txt
 python run_all.py          # 约 60~90 秒，产出全部报告与演示页面
 ```
