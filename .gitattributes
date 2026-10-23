@@ -1,0 +1,16 @@
+# 统一换行符：仓库内存 LF，检出时按平台转换
+* text=auto eol=lf
+
+# 避免 Git 把数据集当文本做 diff / 尝试编码转换
+*.jpg binary
+*.png binary
+*.pdf binary
+*.docx binary
+
+# jsonl 是文本，但行极长，diff 意义不大；仍然按文本存以便 review
+*.jsonl text eol=lf
+
+# 生成物标记，GitHub 语言统计里不计入
+report.html linguist-generated=false
+demo/index.html linguist-generated=false
+demo/raven-lite.js linguist-vendored=false

@@ -1,0 +1,270 @@
+{"id": "t00130", "text": "路过顺便说一句，萌新问一句，收我的世界号，價格好商量，私信发图，走平台交易", "label": "risk", "subtype": "account", "source_class": "account", "perturb_ops": ["traditional"], "account": "u0001"}
+{"id": "t00014", "text": "出崩坏星穹铁道辅﻿助298，防封驱动已更新，老客户包更新，私私私私信我拿卡密", "label": "risk", "subtype": "cheat", "source_class": "cheat", "perturb_ops": ["char_repeat", "zero_width"], "account": "u0001"}
+{"id": "t00162", "text": "点头像看简介", "label": "risk", "subtype": "traffic", "source_class": "traffic", "perturb_ops": [], "account": "u0001"}
+{"id": "t00153", "text": "萌新问一句，主主主主页有联系方式，加微信dd1688，我的世界内部号领取", "label": "risk", "subtype": "traffic", "source_class": "traffic", "perturb_ops": ["char_repeat"], "account": "u0001"}
+{"id": "t00049", "text": "接单崩坏星穹铁道代打，128起，可*小*刀，包上上上上分不掉段", "label": "risk", "subtype": "boost", "source_class": "boost", "perturb_ops": ["char_repeat", "separator"], "account": "u0002"}
+{"id": "t00239", "text": "🎮请教一下，遇到卖外挂👉的应该在哪举报，效率高一点💰", "label": "benign", "subtype": "mention", "source_class": "mention", "perturb_ops": ["emoji_pad", "emoji_inject"], "account": "u0003"}
+{"id": "t00092", "text": "永劫无间账hao交易", "label": "risk", "subtype": "account", "source_class": "account", "perturb_ops": ["homophone"], "account": "u0003"}
+{"id": "t00141", "text": "扫🚀码进进进进群领原神福利，活动仅限今天，加微‍信ｇzｓ666", "label": "risk", "subtype": "traffic", "source_class": "traffic", "perturb_ops": ["fullwidth", "zero_width", "char_repeat", "emoji_inject"], "account": "u0003"}
+{"id": "t00236", "text": "我的世界官方公告说严查代⚡练，抓到直接封，别碰", "label": "benign", "subtype": "mention", "source_class": "mention", "perturb_ops": ["emoji_inject"], "account": "u0003"}
+{"id": "t00046", "text": "求助各位大佬 三角洲行动dl上_分，手🎮打国-标，２天上王者，价.格便‌宜可私私私私聊", "label": "risk", "subtype": "boost", "source_class": "boost", "perturb_ops": ["fullwidth", "char_repeat", "zero_width", "separator", "separator", "emoji_inject", "separator", "pinyin_abbr"], "account": "u0004"}
+{"id": "t00021", "text": "❗蛋仔派对辅助8８，自瞄锁头无✅后座，驱🎮动级防封，进群领试用🔥", "label": "risk", "subtype": "cheat", "source_class": "cheat", "perturb_ops": ["fullwidth", "emoji_pad", "emoji_inject", "emoji_inject"], "account": "u0005"}
+{"id": "t00006", "text": "蛋仔派对辅👉助工具５20永久，自瞄透视，支持手机，稳🎮定不封号号号号", "label": "risk", "subtype": "cheat", "source_class": "cheat", "perturb_ops": ["fullwidth", "char_repeat", "emoji_inject", "emoji_inject"], "account": "u0006"}
+{"id": "t00000", "text": "👉萌新问一句，CS2物理wg999，自瞄透_视，稳稳稳稳定不不不不封，需要私聊✅", "label": "risk", "subtype": "cheat", "source_class": "cheat", "perturb_ops": ["emoji_pad", "char_repeat", "char_repeat", "separator", "pinyin_abbr"], "account": "u0007"}
+{"id": "t00009", "text": "CS2辅助工具128永久，自瞄透✅视，支持手机，稳定不封封封封号", "label": "risk", "subtype": "cheat", "source_class": "cheat", "perturb_ops": ["char_repeat", "emoji_inject"], "account": "u0008"}
+{"id": "t00057", "text": "纯讨论：CＳ2代练上分，手打国标，２天上王者，价价价价格偏宜可私私私私聊", "label": "risk", "subtype": "boost", "source_class": "boost", "perturb_ops": ["fullwidth", "char_repeat", "homophone", "char_repeat"], "account": "u0008"}
+{"id": "t00095", "text": "❗收暗区突围hao✅", "label": "risk", "subtype": "account", "source_class": "account", "perturb_ops": ["emoji_pad", "pinyin_abbr"], "account": "u0009"}
+{"id": "t00189", "text": "求推荐永劫无间里适合新手的角色，我现在只有三个五星", "label": "benign", "subtype": "benign", "source_class": "benign", "perturb_ops": [], "account": "u0009"}
+{"id": "t00007", "text": "萌新问一句，和平精英物理外挂30，自 瞄透‍视，稳_定不封，需要私✅聊", "label": "risk", "subtype": "cheat", "source_class": "cheat", "perturb_ops": ["emoji_inject", "separator", "zero_width", "separator"], "account": "u0009"}
+{"id": "t00129", "text": "暗区突围账账账账号交易", "label": "risk", "subtype": "account", "source_class": "account", "perturb_ops": ["char_repeat"], "account": "u0009"}
+{"id": "t00177", "text": "pm信我领暗区突围福利", "label": "risk", "subtype": "traffic", "source_class": "traffic", "perturb_ops": ["zero_width", "pinyin_abbr"], "account": "u0009"}
+{"id": "t00221", "text": "刚入坑原神，请问先练哪个角色比较好", "label": "benign", "subtype": "benign", "source_class": "benign", "perturb_ops": [], "account": "u0010"}
+{"id": "t00234", "text": "👉暗区突围外|挂🔥最近好像变多了❗", "label": "benign", "subtype": "mention", "source_class": "mention", "perturb_ops": ["emoji_pad", "emoji_inject", "separator"], "account": "u0011"}
+{"id": "t00015", "text": "出ＣS2外卦，520一个月，稳稳稳稳定不封，被封包退，加·微·信vip202６", "label": "risk", "subtype": "cheat", "source_class": "cheat", "perturb_ops": ["fullwidth", "separator", "char_repeat", "homophone"], "account": "u0011"}
+{"id": "t00064", "text": "接英雄联盟代练单，58一段，手打国✅标，包🚀退", "label": "risk", "subtype": "boost", "source_class": "boost", "perturb_ops": ["emoji_inject", "emoji_inject"], "account": "u0012"}
+{"id": "t00255", "text": "【求助】CS2外褂最近好像变多了，官方是不是该管管", "label": "benign", "subtype": "mention", "source_class": "mention", "perturb_ops": ["homophone"], "account": "u0013"}
+{"id": "t00190", "text": "崩坏星穹铁道这次活动肝完了，奖励一般，不太值", "label": "benign", "subtype": "benign", "source_class": "benign", "perturb_ops": [], "account": "u0014"}
+{"id": "t00166", "text": "求助各位大佬 扫*码进群❗领无畏契约福利，活动仅限今天，加微✅信aｂc123", "label": "risk", "subtype": "traffic", "source_class": "traffic", "perturb_ops": ["fullwidth", "emoji_inject", "emoji_inject", "separator"], "account": "u0014"}
+{"id": "t00059", "text": "王者荣耀代代代代练上上上上分，手‌打国标，2天上王者，價格便👉宜可私​聊", "label": "risk", "subtype": "boost", "source_class": "boost", "perturb_ops": ["zero_width", "emoji_inject", "traditional", "zero_width", "char_repeat", "char_repeat"], "account": "u0014"}
+{"id": "t00174", "text": "求助各位大佬 私信我领永劫无间福利，加v﻿xkf8800，每天更新", "label": "risk", "subtype": "traffic", "source_class": "traffic", "perturb_ops": ["zero_width"], "account": "u0015"}
+{"id": "t00122", "text": "王者荣耀号💰298出，满级全皮皮皮皮肤，走🚀平台，秒💰换绑", "label": "risk", "subtype": "account", "source_class": "account", "perturb_ops": ["emoji_inject", "emoji_inject", "char_repeat", "emoji_inject"], "account": "u0016"}
+{"id": "t00167", "text": "纯讨论：点头像看简简简简介，扣１拉你進群，暗区突围资源全都有", "label": "risk", "subtype": "traffic", "source_class": "traffic", "perturb_ops": ["fullwidth", "traditional", "char_repeat"], "account": "u0017"}
+{"id": "t00218", "text": "求助各位大佬 今天排位连跪五把，队友全程掛机，太难了", "label": "benign", "subtype": "benign", "source_class": "benign", "perturb_ops": ["traditional"], "account": "u0018"}
+{"id": "t00250", "text": "和平精英官方公告说严查代练", "label": "benign", "subtype": "mention", "source_class": "mention", "perturb_ops": [], "account": "u0018"}
+{"id": "t00249", "text": "英雄联盟外外外外挂⁠最近好像变多了，官方是不是该管管", "label": "benign", "subtype": "mention", "source_class": "mention", "perturb_ops": ["zero_width", "char_repeat"], "account": "u0018"}
+{"id": "t00089", "text": "萌新问一句，永劫无间代代代代练上​分，手打国﻿标，2天上王者，價格便-宜可私私私私聊", "label": "risk", "subtype": "boost", "source_class": "boost", "perturb_ops": ["char_repeat", "separator", "traditional", "zero_width", "zero_width", "char_repeat"], "account": "u0018"}
+{"id": "t00212", "text": "刚入坑暗区突围，请问先练哪个角色比较好", "label": "benign", "subtype": "benign", "source_class": "benign", "perturb_ops": [], "account": "u0019"}
+{"id": "t00194", "text": "❗有没有我的世界的同人图推荐，最近迷上了这个CP✅", "label": "benign", "subtype": "benign", "source_class": "benign", "perturb_ops": ["emoji_pad"], "account": "u0019"}
+{"id": "t00170", "text": "主页有联‌系方式", "label": "risk", "subtype": "traffic", "source_class": "traffic", "perturb_ops": ["zero_width"], "account": "u0020"}
+{"id": "t00267", "text": "纯讨论：崩坏星穹铁道社区里那些进_群领福利的", "label": "benign", "subtype": "mention", "source_class": "mention", "perturb_ops": ["separator", "separator"], "account": "u0021"}
+{"id": "t00154", "text": "私信我领王者荣耀福利", "label": "risk", "subtype": "traffic", "source_class": "traffic", "perturb_ops": [], "account": "u0022"}
+{"id": "t00001", "text": "❗【求助】出三角洲行动辅助999，防-封驱动已更新，老客户包更新，私 信 我拿卡 密🎮", "label": "risk", "subtype": "cheat", "source_class": "cheat", "perturb_ops": ["emoji_pad", "separator", "separator", "separator"], "account": "u0023"}
+{"id": "t00152", "text": "扫码进 群‍领王者荣耀福利，活动仅限今天，加‍weixinabc123", "label": "risk", "subtype": "traffic", "source_class": "traffic", "perturb_ops": ["pinyin_abbr", "zero_width", "zero_width", "separator"], "account": "u0024"}
+{"id": "t00191", "text": "今天排位连跪五把，队友全程挂⁠机，太难了", "label": "benign", "subtype": "benign", "source_class": "benign", "perturb_ops": ["zero_width"], "account": "u0025"}
+{"id": "t00200", "text": "🚀求推荐暗区突围里适合新手的角色，我现在只有三个五星🚀", "label": "benign", "subtype": "benign", "source_class": "benign", "perturb_ops": ["emoji_pad"], "account": "u0026"}
+{"id": "t00117", "text": "🚀暗区突围号30出👉", "label": "risk", "subtype": "account", "source_class": "account", "perturb_ops": ["emoji_pad"], "account": "u0027"}
+{"id": "t00096", "text": "收三角洲行动号，價錢好商量，私信发图，走平平平平台交易", "label": "risk", "subtype": "account", "source_class": "account", "perturb_ops": ["char_repeat", "homophone", "separator"], "account": "u0028"}
+{"id": "t00197", "text": "有没有三角洲行动的同人图推荐，最近迷上了这个ＣＰ", "label": "benign", "subtype": "benign", "source_class": "benign", "perturb_ops": ["fullwidth"], "account": "u0028"}
+{"id": "t00053", "text": "我的世界代🎮练上🚀分，手打国✅标，2天上王者，价格便便便便宜可私聊", "label": "risk", "subtype": "boost", "source_class": "boost", "perturb_ops": ["char_repeat", "emoji_inject", "emoji_inject", "emoji_inject"], "account": "u0028"}
+{"id": "t00125", "text": "收永劫无间号，价价价价格好商量，私信发图，走_平_台交易", "label": "risk", "subtype": "account", "source_class": "account", "perturb_ops": ["separator", "char_repeat"], "account": "u0029"}
+{"id": "t00068", "text": "纯讨论：接单暗区突围代打", "label": "risk", "subtype": "boost", "source_class": "boost", "perturb_ops": [], "account": "u0029"}
+{"id": "t00265", "text": "求助各位大佬 永劫无间官方公告说严查代代代代练", "label": "benign", "subtype": "mention", "source_class": "mention", "perturb_ops": ["char_repeat"], "account": "u0029"}
+{"id": "t00140", "text": "【求助】点头﻿像看简介", "label": "risk", "subtype": "traffic", "source_class": "traffic", "perturb_ops": ["zero_width"], "account": "u0029"}
+{"id": "t00219", "text": "❗原神这个版本我角色满命了👉", "label": "benign", "subtype": "benign", "source_class": "benign", "perturb_ops": ["emoji_pad"], "account": "u0030"}
+{"id": "t00156", "text": "私⚡信我领原神福利", "label": "risk", "subtype": "traffic", "source_class": "traffic", "perturb_ops": ["emoji_inject"], "account": "u0031"}
+{"id": "t00119", "text": "我的世界号号号号298出", "label": "risk", "subtype": "account", "source_class": "account", "perturb_ops": ["char_repeat"], "account": "u0032"}
+{"id": "t00121", "text": "收蛋仔派对号，价格好商量，私信发图，走平台交易", "label": "risk", "subtype": "account", "source_class": "account", "perturb_ops": [], "account": "u0033"}
+{"id": "t00112", "text": "💰蛋仔派对号号号号3０出，满级全皮‍👉肤，走✅平台，秒换绑👉", "label": "risk", "subtype": "account", "source_class": "account", "perturb_ops": ["fullwidth", "emoji_pad", "emoji_inject", "emoji_inject", "zero_width", "char_repeat"], "account": "u0034"}
+{"id": "t00050", "text": "🚀接我的世界代👉练单，58一段，手打国标，包退🎮", "label": "risk", "subtype": "boost", "source_class": "boost", "perturb_ops": ["emoji_pad", "emoji_inject"], "account": "u0034"}
+{"id": "t00138", "text": "求助各位大佬 主页页页页有联系方式，加微信abc123，王者荣耀内部号领取", "label": "risk", "subtype": "traffic", "source_class": "traffic", "perturb_ops": ["separator", "homophone", "char_repeat"], "account": "u0034"}
+{"id": "t00146", "text": "扫碼进群领CS2福利，活动仅限今天，加微信abc123", "label": "risk", "subtype": "traffic", "source_class": "traffic", "perturb_ops": ["separator", "traditional"], "account": "u0034"}
+{"id": "t00048", "text": "🎮纯讨论：接单暗区突围代打🚀", "label": "risk", "subtype": "boost", "source_class": "boost", "perturb_ops": ["emoji_pad"], "account": "u0035"}
+{"id": "t00246", "text": "纯讨论：别买那些１2８永久的外掛，基本都是骗钱的", "label": "benign", "subtype": "mention", "source_class": "mention", "perturb_ops": ["fullwidth", "traditional"], "account": "u0035"}
+{"id": "t00074", "text": "接王者荣耀代代代代练单，128一段，手打国标，包退", "label": "risk", "subtype": "boost", "source_class": "boost", "perturb_ops": ["char_repeat"], "account": "u0035"}
+{"id": "t00085", "text": "👉接单暗区突围代打，188起，可可可可小刀，包上上上上分不掉段⚡", "label": "risk", "subtype": "boost", "source_class": "boost", "perturb_ops": ["emoji_pad", "char_repeat", "char_repeat"], "account": "u0035"}
+{"id": "t00259", "text": "CS２社区里那些进|群领福利的，八成是钓鱼，别点", "label": "benign", "subtype": "mention", "source_class": "mention", "perturb_ops": ["fullwidth", "separator"], "account": "u0035"}
+{"id": "t00238", "text": "❗刷到有人发蛋仔派对辅助广告，我私信骂了一顿然后举⁠报了🎮", "label": "benign", "subtype": "mention", "source_class": "mention", "perturb_ops": ["emoji_pad", "zero_width"], "account": "u0036"}
+{"id": "t00108", "text": "求助各位大佬 原神号号号号298出，满级全皮膚，走平台，秒*换*绑", "label": "risk", "subtype": "account", "source_class": "account", "perturb_ops": ["separator", "traditional", "char_repeat"], "account": "u0037"}
+{"id": "t00268", "text": "💰求助各位大佬 刷到有人发和平精英辅辅辅辅助广告，我pm骂了一顿然后举报了✅", "label": "benign", "subtype": "mention", "source_class": "mention", "perturb_ops": ["emoji_pad", "pinyin_abbr", "char_repeat"], "account": "u0038"}
+{"id": "t00104", "text": "暗区突围号３０出，满级全皮皮皮皮膚，走平台，秒换绑", "label": "risk", "subtype": "account", "source_class": "account", "perturb_ops": ["fullwidth", "traditional", "char_repeat"], "account": "u0039"}
+{"id": "t00071", "text": "纯讨论：暗区突围代.练上✅分，手打国标，2天上王者，价铬便﻿宜可丝聊", "label": "risk", "subtype": "boost", "source_class": "boost", "perturb_ops": ["homophone", "zero_width", "homophone", "emoji_inject", "separator"], "account": "u0040"}
+{"id": "t00030", "text": "出和平精英外掛，999一个月，稳👉定不封，被封包退，加微信gｚs666", "label": "risk", "subtype": "cheat", "source_class": "cheat", "perturb_ops": ["fullwidth", "emoji_inject", "traditional"], "account": "u0040"}
+{"id": "t00157", "text": "扫码進群领王者荣耀福利，活动仅限今天，加微‍ 信aｂc12３", "label": "risk", "subtype": "traffic", "source_class": "traffic", "perturb_ops": ["fullwidth", "separator", "zero_width", "separator", "traditional"], "account": "u0040"}
+{"id": "t00222", "text": "看完蛋仔派对的比赛，职业选手的意识真的强", "label": "benign", "subtype": "benign", "source_class": "benign", "perturb_ops": [], "account": "u0040"}
+{"id": "t00056", "text": "✅接和平精英代👉练单，188一段，手🎮打国标，包退🔥", "label": "risk", "subtype": "boost", "source_class": "boost", "perturb_ops": ["emoji_pad", "emoji_inject", "emoji_inject"], "account": "u0040"}
+{"id": "t00107", "text": "出三角洲行动zh号号号520，全皮.肤满命，秒换﻿绑，走🎮平台担保", "label": "risk", "subtype": "account", "source_class": "account", "perturb_ops": ["emoji_inject", "zero_width", "separator", "char_repeat", "pinyin_abbr"], "account": "u0041"}
+{"id": "t00226", "text": "别别别别买那些58永久的wg⁠，基本都是骗钱的", "label": "benign", "subtype": "mention", "source_class": "mention", "perturb_ops": ["zero_width", "pinyin_abbr", "char_repeat"], "account": "u0042"}
+{"id": "t00260", "text": "🎮刚遇到一个加v信卖外褂的，话术一模一样，别上当⚡", "label": "benign", "subtype": "mention", "source_class": "mention", "perturb_ops": ["emoji_pad", "homophone", "homophone"], "account": "u0042"}
+{"id": "t00069", "text": "王者荣耀代練上分", "label": "risk", "subtype": "boost", "source_class": "boost", "perturb_ops": ["traditional"], "account": "u0042"}
+{"id": "t00118", "text": "出我的世界账号29８，全全全全皮肤满命，秒换绑，走平平平平台担保", "label": "risk", "subtype": "account", "source_class": "account", "perturb_ops": ["fullwidth", "char_repeat", "char_repeat"], "account": "u0042"}
+{"id": "t00019", "text": "暗区突围辅|助|工|具５８永久", "label": "risk", "subtype": "cheat", "source_class": "cheat", "perturb_ops": ["fullwidth", "separator"], "account": "u0042"}
+{"id": "t00213", "text": "求助各位大佬 求推荐我的世界里适合新手的角色", "label": "benign", "subtype": "benign", "source_class": "benign", "perturb_ops": [], "account": "u0043"}
+{"id": "t00134", "text": "我的世界號188出", "label": "risk", "subtype": "account", "source_class": "account", "perturb_ops": ["homophone"], "account": "u0044"}
+{"id": "t00211", "text": "求问永劫无间的隐藏任务怎么触发，攻略说得含糊", "label": "benign", "subtype": "benign", "source_class": "benign", "perturb_ops": [], "account": "u0045"}
+{"id": "t00225", "text": "永劫无间官方公告说严查代练，抓到直接封，别碰", "label": "benign", "subtype": "mention", "source_class": "mention", "perturb_ops": [], "account": "u0046"}
+{"id": "t00060", "text": "求助各位大佬 dl无畏契约，手打不刷机，包上.分，加徽信kｆ880０", "label": "risk", "subtype": "boost", "source_class": "boost", "perturb_ops": ["fullwidth", "homophone", "separator", "pinyin_abbr"], "account": "u0047"}
+{"id": "t00012", "text": "无畏契约辅🚀助工具128永久，自苗透视，支持手机，稳﻿定不封號", "label": "risk", "subtype": "cheat", "source_class": "cheat", "perturb_ops": ["traditional", "zero_width", "homophone", "emoji_inject"], "account": "u0048"}
+{"id": "t00033", "text": "👉【求助】蛋仔派对辅注工💰具188永久，自瞄透✅视，支持手机，稳定不封号⁠❗", "label": "risk", "subtype": "cheat", "source_class": "cheat", "perturb_ops": ["emoji_pad", "zero_width", "emoji_inject", "emoji_inject", "homophone"], "account": "u0048"}
+{"id": "t00010", "text": "出无畏契约辅注188", "label": "risk", "subtype": "cheat", "source_class": "cheat", "perturb_ops": ["homophone"], "account": "u0048"}
+{"id": "t00086", "text": "代‍练永劫无间，手·打不刷机，包上分，加微信yx7788", "label": "risk", "subtype": "boost", "source_class": "boost", "perturb_ops": ["separator", "zero_width"], "account": "u0049"}
+{"id": "t00047", "text": "代👉练三角洲行动，手手手手打不刷机，包上分，加⚡微信dd1688", "label": "risk", "subtype": "boost", "source_class": "boost", "perturb_ops": ["emoji_inject", "char_repeat", "emoji_inject"], "account": "u0049"}
+{"id": "t00065", "text": "代代代代练CＳ2，手打不刷机，包上上上上分，加-微-信ｇzs666", "label": "risk", "subtype": "boost", "source_class": "boost", "perturb_ops": ["fullwidth", "separator", "char_repeat", "char_repeat"], "account": "u0049"}
+{"id": "t00241", "text": "三角洲行动外⚡挂最近好像变多了，官方是不是该管管", "label": "benign", "subtype": "mention", "source_class": "mention", "perturb_ops": ["emoji_inject"], "account": "u0050"}
+{"id": "t00123", "text": "✅求助各位大佬 出和平精英账号💰298💰", "label": "risk", "subtype": "account", "source_class": "account", "perturb_ops": ["emoji_pad", "emoji_inject"], "account": "u0051"}
+{"id": "t00091", "text": "收我的世界号，价格好商量，私芯发图，走平台交易", "label": "risk", "subtype": "account", "source_class": "account", "perturb_ops": ["homophone"], "account": "u0052"}
+{"id": "t00079", "text": "代练原神，手打不刷机，包上分，加卫星abc123", "label": "risk", "subtype": "boost", "source_class": "boost", "perturb_ops": ["homophone"], "account": "u0053"}
+{"id": "t00011", "text": "求助各位大佬 崩坏星穹铁道辅助128，自🎮瞄锁⁠头无⁠后座，驱动级防_封，进*群领试用", "label": "risk", "subtype": "cheat", "source_class": "cheat", "perturb_ops": ["separator", "separator", "zero_width", "zero_width", "emoji_inject"], "account": "u0054"}
+{"id": "t00214", "text": "求助各位大佬 求推荐我的世界里适合新手的角色，我现在只有三个五星", "label": "benign", "subtype": "benign", "source_class": "benign", "perturb_ops": [], "account": "u0055"}
+{"id": "t00188", "text": "求推荐崩坏星穹铁道里适合新手的角色，我现在只有三个五星", "label": "benign", "subtype": "benign", "source_class": "benign", "perturb_ops": [], "account": "u0056"}
+{"id": "t00067", "text": "👉代⁠练暗区突围⚡", "label": "risk", "subtype": "boost", "source_class": "boost", "perturb_ops": ["emoji_pad", "zero_width"], "account": "u0056"}
+{"id": "t00082", "text": "接三角洲行动代练单，８8一段，手🔥打国标，包褪", "label": "risk", "subtype": "boost", "source_class": "boost", "perturb_ops": ["fullwidth", "homophone", "emoji_inject"], "account": "u0056"}
+{"id": "t00124", "text": "💰和平精英zh号号号交易，满级满配，999，走平台，找回包赔👉", "label": "risk", "subtype": "account", "source_class": "account", "perturb_ops": ["emoji_pad", "char_repeat", "pinyin_abbr"], "account": "u0057"}
+{"id": "t00159", "text": "🎮主|页|有联系方式，加微🔥信yx778８，王者荣耀内部号领取🚀", "label": "risk", "subtype": "traffic", "source_class": "traffic", "perturb_ops": ["fullwidth", "emoji_pad", "emoji_inject", "separator"], "account": "u0058"}
+{"id": "t00035", "text": "【求助】和平精英辅辅辅辅助工具８８永久，自瞄透視，支持手机，稳定不👉封.号号号号", "label": "risk", "subtype": "cheat", "source_class": "cheat", "perturb_ops": ["fullwidth", "char_repeat", "separator", "emoji_inject", "traditional", "char_repeat"], "account": "u0058"}
+{"id": "t00228", "text": "刷到有人发永劫无间辅⚡助广告", "label": "benign", "subtype": "mention", "source_class": "mention", "perturb_ops": ["emoji_inject"], "account": "u0058"}
+{"id": "t00183", "text": "蛋仔派对这次活动肝完了，奖励一般，不太值", "label": "benign", "subtype": "benign", "source_class": "benign", "perturb_ops": [], "account": "u0058"}
+{"id": "t00004", "text": "💰出蛋仔派对辅助８８，防封驱动已更新，老客户包更新，私私私私信我拿卡⁠密✅", "label": "risk", "subtype": "cheat", "source_class": "cheat", "perturb_ops": ["fullwidth", "emoji_pad", "zero_width", "char_repeat"], "account": "u0058"}
+{"id": "t00145", "text": "扫碼进群群群群领和平精英福利，活动仅限今天，加微信gzs666", "label": "risk", "subtype": "traffic", "source_class": "traffic", "perturb_ops": ["char_repeat", "traditional"], "account": "u0059"}
+{"id": "t00242", "text": "请教一下，遇到卖wg挂挂挂的应该在哪举‌报，效率高一点", "label": "benign", "subtype": "mention", "source_class": "mention", "perturb_ops": ["zero_width", "char_repeat", "pinyin_abbr"], "account": "u0059"}
+{"id": "t00098", "text": "暗区突围账號交易号交易，满级满配，298，走平台，找回包赔", "label": "risk", "subtype": "account", "source_class": "account", "perturb_ops": ["char_repeat", "traditional"], "account": "u0059"}
+{"id": "t00038", "text": "英雄联盟透透透透视辅助999永久，支持安卓和模拟器，进🔥群看演示视频", "label": "risk", "subtype": "cheat", "source_class": "cheat", "perturb_ops": ["emoji_inject", "char_repeat"], "account": "u0059"}
+{"id": "t00020", "text": "三角洲行动透透透透视辅助999永久，支持安卓和模拟器，進群看演示视频", "label": "risk", "subtype": "cheat", "source_class": "cheat", "perturb_ops": ["traditional", "char_repeat"], "account": "u0060"}
+{"id": "t00036", "text": "谢谢分享，【求助】出王者荣耀外挂", "label": "risk", "subtype": "cheat", "source_class": "cheat", "perturb_ops": [], "account": "u0060"}
+{"id": "t00044", "text": "求助各位大佬 原神辅助工具520永久，自瞄透时，支持手机，稳‍定不封👉號", "label": "risk", "subtype": "cheat", "source_class": "cheat", "perturb_ops": ["homophone", "emoji_inject", "zero_width", "homophone"], "account": "u0061"}
+{"id": "t00210", "text": "【求助】有没有英雄联盟的同人图推荐，最近迷上了这个CP", "label": "benign", "subtype": "benign", "source_class": "benign", "perturb_ops": [], "account": "u0062"}
+{"id": "t00175", "text": "丝信我领CS２福利", "label": "risk", "subtype": "traffic", "source_class": "traffic", "perturb_ops": ["fullwidth", "homophone"], "account": "u0063"}
+{"id": "t00264", "text": "✅请教一下，遇到卖外挂的应该在哪举举举举报，效率高一点❗", "label": "benign", "subtype": "mention", "source_class": "mention", "perturb_ops": ["emoji_pad", "char_repeat"], "account": "u0063"}
+{"id": "t00105", "text": "👉和平精英账👉號交易，满级满配，5２０，走走走走平台，找﻿回包赔🔥", "label": "risk", "subtype": "account", "source_class": "account", "perturb_ops": ["fullwidth", "emoji_pad", "zero_width", "char_repeat", "separator", "traditional", "emoji_inject"], "account": "u0063"}
+{"id": "t00070", "text": "代练蛋仔派对，手打不刷机，包上上上上分，加微信dd1688", "label": "risk", "subtype": "boost", "source_class": "boost", "perturb_ops": ["char_repeat"], "account": "u0064"}
+{"id": "t00027", "text": "英雄联盟物理外外外外挂58，自‍瞄透视，稳定不‍封，需要dd", "label": "risk", "subtype": "cheat", "source_class": "cheat", "perturb_ops": ["pinyin_abbr", "zero_width", "zero_width", "char_repeat"], "account": "u0065"}
+{"id": "t00199", "text": "求问我的世界的隐藏任务怎么触发，攻略说得含糊", "label": "benign", "subtype": "benign", "source_class": "benign", "perturb_ops": [], "account": "u0066"}
+{"id": "t00217", "text": "我的世界这次活动肝完了，奖励一般，不太值", "label": "benign", "subtype": "benign", "source_class": "benign", "perturb_ops": [], "account": "u0067"}
+{"id": "t00143", "text": "纯讨论：私信‍我领蛋仔派对福利", "label": "risk", "subtype": "traffic", "source_class": "traffic", "perturb_ops": ["zero_width"], "account": "u0068"}
+{"id": "t00233", "text": "原神外外外外挂最近好像变多了，官方是不是该管管", "label": "benign", "subtype": "mention", "source_class": "mention", "perturb_ops": ["separator", "char_repeat"], "account": "u0069"}
+{"id": "t00151", "text": "纯讨论：私🚀信我领无畏契约福利，加加加加vvvvxdd1688，每天更新", "label": "risk", "subtype": "traffic", "source_class": "traffic", "perturb_ops": ["char_repeat", "char_repeat", "emoji_inject"], "account": "u0069"}
+{"id": "t00093", "text": "收崩坏星穹铁道号", "label": "risk", "subtype": "account", "source_class": "account", "perturb_ops": ["separator"], "account": "u0070"}
+{"id": "t00106", "text": "同求，另外问下，纯讨论：收和平精英呺，价格好商量，私👉信发图，走_平_台交易", "label": "risk", "subtype": "account", "source_class": "account", "perturb_ops": ["separator", "emoji_inject", "homophone"], "account": "u0071"}
+{"id": "t00235", "text": "三角洲行动官方公告说严查代﻿练，抓到直接封，别碰", "label": "benign", "subtype": "mention", "source_class": "mention", "perturb_ops": ["zero_width"], "account": "u0072"}
+{"id": "t00101", "text": "无畏契约号号号号２９8出，满级全皮💰肤，走平台，秒秒秒秒换绑", "label": "risk", "subtype": "account", "source_class": "account", "perturb_ops": ["fullwidth", "char_repeat", "emoji_inject", "char_repeat"], "account": "u0072"}
+{"id": "t00256", "text": "🚀原神社区里那些进群领福利的✅", "label": "benign", "subtype": "mention", "source_class": "mention", "perturb_ops": ["emoji_pad"], "account": "u0072"}
+{"id": "t00227", "text": "❗别买那些５２0永久的外挂🚀🔥", "label": "benign", "subtype": "mention", "source_class": "mention", "perturb_ops": ["fullwidth", "emoji_pad", "emoji_inject"], "account": "u0073"}
+{"id": "t00224", "text": "萌新问一句，记录一下三角洲行动的第100小时，还是挺好玩的", "label": "benign", "subtype": "benign", "source_class": "benign", "perturb_ops": [], "account": "u0074"}
+{"id": "t00263", "text": "👉萌新问一句，刷到有人发我的世界辅助广告，我私私私私信骂了一顿然后举报了💰", "label": "benign", "subtype": "mention", "source_class": "mention", "perturb_ops": ["emoji_pad", "char_repeat"], "account": "u0074"}
+{"id": "t00252", "text": "请教一下，遇到卖wg的应该在哪举报，效率高一点", "label": "benign", "subtype": "mention", "source_class": "mention", "perturb_ops": ["separator", "pinyin_abbr"], "account": "u0075"}
+{"id": "t00185", "text": "求助各位大佬 我的世界这个版本我角色满命了，开心", "label": "benign", "subtype": "benign", "source_class": "benign", "perturb_ops": [], "account": "u0076"}
+{"id": "t00114", "text": "👉出三角洲行动账‍呺12８💰", "label": "risk", "subtype": "account", "source_class": "account", "perturb_ops": ["fullwidth", "emoji_pad", "homophone", "zero_width"], "account": "u0076"}
+{"id": "t00223", "text": "萌新问一句，记录一下CS2的第100小时，还是挺好玩的", "label": "benign", "subtype": "benign", "source_class": "benign", "perturb_ops": [], "account": "u0076"}
+{"id": "t00148", "text": "🎮萌新问一句，点⁠头像看简简简简介，扣１拉你进群，王者荣耀资源全都有💰", "label": "risk", "subtype": "traffic", "source_class": "traffic", "perturb_ops": ["fullwidth", "emoji_pad", "char_repeat", "zero_width"], "account": "u0076"}
+{"id": "t00094", "text": "纯讨论：蛋仔派对号﻿520出，满级全皮肤，走平台，秒.换.绑", "label": "risk", "subtype": "account", "source_class": "account", "perturb_ops": ["separator", "zero_width"], "account": "u0076"}
+{"id": "t00136", "text": "👉【求助】主页👉有联⁠系方式，加微*信gzs666，原神内部号领取❗", "label": "risk", "subtype": "traffic", "source_class": "traffic", "perturb_ops": ["emoji_pad", "separator", "separator", "zero_width", "emoji_inject"], "account": "u0077"}
+{"id": "t00110", "text": "🚀收CS2號，价‍格好商量，私信发图，走*平*台交易💰", "label": "risk", "subtype": "account", "source_class": "account", "perturb_ops": ["emoji_pad", "separator", "zero_width", "traditional"], "account": "u0078"}
+{"id": "t00144", "text": "纯讨论：私信我领王者荣耀福利，加vxdd1688，每天更新", "label": "risk", "subtype": "traffic", "source_class": "traffic", "perturb_ops": [], "account": "u0078"}
+{"id": "t00111", "text": "【求助】原神號58出，满级全❗皮肤，走平台，秒换绑", "label": "risk", "subtype": "account", "source_class": "account", "perturb_ops": ["emoji_inject", "traditional"], "account": "u0078"}
+{"id": "t00051", "text": "代*练王者荣耀", "label": "risk", "subtype": "boost", "source_class": "boost", "perturb_ops": ["separator"], "account": "u0078"}
+{"id": "t00023", "text": "纯讨论：我的世界辅🎮助工具１8８永久，自.瞄透时，支持手机，稳稳稳稳定不⁠封號", "label": "risk", "subtype": "cheat", "source_class": "cheat", "perturb_ops": ["fullwidth", "homophone", "zero_width", "char_repeat", "homophone", "separator", "emoji_inject"], "account": "u0079"}
+{"id": "t00261", "text": "【求助】暗区突围外|挂最近好像变多了", "label": "benign", "subtype": "mention", "source_class": "mention", "perturb_ops": ["traditional", "separator"], "account": "u0079"}
+{"id": "t00063", "text": "接单王者荣耀代代代代打", "label": "risk", "subtype": "boost", "source_class": "boost", "perturb_ops": ["char_repeat"], "account": "u0080"}
+{"id": "t00135", "text": "扫码进群领和平精英福利，活动仅限今天，加微🚀信kf8800", "label": "risk", "subtype": "traffic", "source_class": "traffic", "perturb_ops": ["emoji_inject"], "account": "u0081"}
+{"id": "t00008", "text": "原神透-视辅注３０永久", "label": "risk", "subtype": "cheat", "source_class": "cheat", "perturb_ops": ["fullwidth", "homophone", "separator"], "account": "u0082"}
+{"id": "t00203", "text": "⚡求我的世界的配队思路，我这套阵容总是被秒💰", "label": "benign", "subtype": "benign", "source_class": "benign", "perturb_ops": ["emoji_pad"], "account": "u0083"}
+{"id": "t00016", "text": "纯讨论：出三角洲行动外外外外挂，88一个月，稳定不封，被封包‌退，加微信dd1688", "label": "risk", "subtype": "cheat", "source_class": "cheat", "perturb_ops": ["zero_width", "char_repeat"], "account": "u0083"}
+{"id": "t00231", "text": "原神外✅挂最近好像变多了，官方是不是该管管", "label": "benign", "subtype": "mention", "source_class": "mention", "perturb_ops": ["emoji_inject"], "account": "u0083"}
+{"id": "t00076", "text": "代*练CS2，手打不刷机，包上👉分，加微微微微信gzs666", "label": "risk", "subtype": "boost", "source_class": "boost", "perturb_ops": ["char_repeat", "emoji_inject", "separator"], "account": "u0084"}
+{"id": "t00173", "text": "【求助】扫码进.群群群群领崩坏星穹铁道福利", "label": "risk", "subtype": "traffic", "source_class": "traffic", "perturb_ops": ["char_repeat", "separator"], "account": "u0084"}
+{"id": "t00115", "text": "🎮【求助】蛋仔派对号🚀298出，满级全皮肤，走平台，秒换绑🚀", "label": "risk", "subtype": "account", "source_class": "account", "perturb_ops": ["emoji_pad", "emoji_inject"], "account": "u0084"}
+{"id": "t00055", "text": "🚀萌新问一句，接单永劫无间代打，298起，可小刀，包上分不掉段⚡", "label": "risk", "subtype": "boost", "source_class": "boost", "perturb_ops": ["emoji_pad"], "account": "u0084"}
+{"id": "t00176", "text": "👉扫扫扫扫码进进进进群领原神福利，活动仅限今天，加薇信vip2026👉", "label": "risk", "subtype": "traffic", "source_class": "traffic", "perturb_ops": ["emoji_pad", "homophone", "char_repeat", "char_repeat"], "account": "u0085"}
+{"id": "t00061", "text": "💰接王者荣耀代練单，298一段，手-打国标，包退👉", "label": "risk", "subtype": "boost", "source_class": "boost", "perturb_ops": ["emoji_pad", "separator", "homophone"], "account": "u0086"}
+{"id": "t00017", "text": "崩坏星穹铁道物理wg１8８", "label": "risk", "subtype": "cheat", "source_class": "cheat", "perturb_ops": ["fullwidth", "pinyin_abbr"], "account": "u0086"}
+{"id": "t00042", "text": "纯讨论：暗区突围物理外挂298，自﻿瞄透·视，稳稳稳稳定不不不不封，需要丝聊", "label": "risk", "subtype": "cheat", "source_class": "cheat", "perturb_ops": ["homophone", "char_repeat", "char_repeat", "separator", "zero_width"], "account": "u0086"}
+{"id": "t00058", "text": "✅接单暗区突围代⁠打💰", "label": "risk", "subtype": "boost", "source_class": "boost", "perturb_ops": ["emoji_pad", "zero_width"], "account": "u0087"}
+{"id": "t00269", "text": "蛋仔派对官方公告说严查代练，抓到直接封，别碰", "label": "benign", "subtype": "mention", "source_class": "mention", "perturb_ops": [], "account": "u0088"}
+{"id": "t00164", "text": "❗萌新问一句，主页有联系方式，加加加加微🎮信abc123，崩坏星穹铁道内部号‌领取💰", "label": "risk", "subtype": "traffic", "source_class": "traffic", "perturb_ops": ["emoji_pad", "zero_width", "emoji_inject", "char_repeat"], "account": "u0089"}
+{"id": "t00147", "text": "主主主主页有联联联联系方式，加微﻿信abc123，永劫无间内部号领取", "label": "risk", "subtype": "traffic", "source_class": "traffic", "perturb_ops": ["zero_width", "char_repeat", "char_repeat"], "account": "u0090"}
+{"id": "t00253", "text": "刚遇到一个加微信卖外‌挂的，话术一模一样，别上当", "label": "benign", "subtype": "mention", "source_class": "mention", "perturb_ops": ["zero_width"], "account": "u0091"}
+{"id": "t00182", "text": "👉刚入坑我的世界，请问先练哪个角色比较好✅", "label": "benign", "subtype": "benign", "source_class": "benign", "perturb_ops": ["emoji_pad"], "account": "u0092"}
+{"id": "t00150", "text": "点头像看简🔥介，扣‌1拉你进进进进裙，崩坏星穹铁道资源全都有", "label": "risk", "subtype": "traffic", "source_class": "traffic", "perturb_ops": ["homophone", "char_repeat", "zero_width", "emoji_inject"], "account": "u0093"}
+{"id": "t00165", "text": "私‍信我领英雄联盟福利，加vxyx7788，每天更新", "label": "risk", "subtype": "traffic", "source_class": "traffic", "perturb_ops": ["zero_width"], "account": "u0094"}
+{"id": "t00204", "text": "🚀崩坏星穹铁道的UI重做之后清爽多了👉", "label": "benign", "subtype": "benign", "source_class": "benign", "perturb_ops": ["emoji_pad"], "account": "u0095"}
+{"id": "t00168", "text": "纯讨论：扫码进群群群群领英雄联盟福利，活动仅限今天，加微🔥信gzs666", "label": "risk", "subtype": "traffic", "source_class": "traffic", "perturb_ops": ["emoji_inject", "char_repeat"], "account": "u0095"}
+{"id": "t00120", "text": "ＣS2账账账账号号号号交易", "label": "risk", "subtype": "account", "source_class": "account", "perturb_ops": ["fullwidth", "separator", "char_repeat", "char_repeat"], "account": "u0096"}
+{"id": "t00229", "text": "⚡崩坏星穹铁道社区里那些进‌群领福利的，八成是钓鱼，别点👉", "label": "benign", "subtype": "mention", "source_class": "mention", "perturb_ops": ["emoji_pad", "zero_width"], "account": "u0097"}
+{"id": "t00043", "text": "出三角洲行动辅住999", "label": "risk", "subtype": "cheat", "source_class": "cheat", "perturb_ops": ["homophone"], "account": "u0097"}
+{"id": "t00131", "text": "收蛋仔派对號", "label": "risk", "subtype": "account", "source_class": "account", "perturb_ops": ["traditional"], "account": "u0098"}
+{"id": "t00066", "text": "🚀代.练暗区突围，手打不刷机，包上上上上分，加微信kf8800⚡", "label": "risk", "subtype": "boost", "source_class": "boost", "perturb_ops": ["emoji_pad", "char_repeat", "separator"], "account": "u0099"}
+{"id": "t00088", "text": "萌新问一句，接单和平精英代🎮打，999起，可小刀，包上🚀分不掉段", "label": "risk", "subtype": "boost", "source_class": "boost", "perturb_ops": ["emoji_inject", "emoji_inject"], "account": "u0099"}
+{"id": "t00230", "text": "英雄联盟社区里那些进‍群﻿领福利的，八成是钓鱼，别点", "label": "benign", "subtype": "mention", "source_class": "mention", "perturb_ops": ["zero_width", "zero_width"], "account": "u0099"}
+{"id": "t00247", "text": "刷到有人发原神辅助广告，我私私私私信骂了一顿然后举报了", "label": "benign", "subtype": "mention", "source_class": "mention", "perturb_ops": ["char_repeat"], "account": "u0099"}
+{"id": "t00208", "text": "萌新问一句，原神这次活动肝完了，奖励一般，不太值", "label": "benign", "subtype": "benign", "source_class": "benign", "perturb_ops": [], "account": "u0100"}
+{"id": "t00062", "text": "纯讨论：CS2代练上分，手‍打国标，2天上王者，价_格便宜可丝聊", "label": "risk", "subtype": "boost", "source_class": "boost", "perturb_ops": ["homophone", "separator", "zero_width"], "account": "u0101"}
+{"id": "t00031", "text": "出永劫无间外👉掛，128一个月，稳啶不封，被封包退，加微信abc１2３", "label": "risk", "subtype": "cheat", "source_class": "cheat", "perturb_ops": ["fullwidth", "homophone", "traditional", "emoji_inject"], "account": "u0102"}
+{"id": "t00266", "text": "求助各位大佬 别​买那些188永久的外|挂，基本都是骗钱的", "label": "benign", "subtype": "mention", "source_class": "mention", "perturb_ops": ["separator", "zero_width"], "account": "u0103"}
+{"id": "t00171", "text": "⚡萌新问一句，扫码进群领永劫无间福利，活动仅限今天，加v信信dd1688🔥", "label": "risk", "subtype": "traffic", "source_class": "traffic", "perturb_ops": ["emoji_pad", "separator", "homophone"], "account": "u0104"}
+{"id": "t00206", "text": "【求助】求问原神的隐藏任务怎么触发，攻略说得含糊", "label": "benign", "subtype": "benign", "source_class": "benign", "perturb_ops": [], "account": "u0104"}
+{"id": "t00090", "text": "✅蛋仔派对账號交💰易，满级满配，188，走平台，找回包赔✅", "label": "risk", "subtype": "account", "source_class": "account", "perturb_ops": ["emoji_pad", "traditional", "emoji_inject"], "account": "u0105"}
+{"id": "t00037", "text": "三角洲行动辅助８8，自🎮瞄锁头无后座，驱动级防👉封，進群👉领试用", "label": "risk", "subtype": "cheat", "source_class": "cheat", "perturb_ops": ["fullwidth", "emoji_inject", "traditional", "emoji_inject", "emoji_inject"], "account": "u0106"}
+{"id": "t00196", "text": "【求助】看完原神的比赛", "label": "benign", "subtype": "benign", "source_class": "benign", "perturb_ops": [], "account": "u0107"}
+{"id": "t00248", "text": "【求助】刷到有人发三角洲行动辅注广告，我pm骂了一顿然后举‌报了", "label": "benign", "subtype": "mention", "source_class": "mention", "perturb_ops": ["zero_width", "pinyin_abbr", "homophone"], "account": "u0108"}
+{"id": "t00240", "text": "原神官方公告说严查代❗练，抓到直接封，别碰", "label": "benign", "subtype": "mention", "source_class": "mention", "perturb_ops": ["emoji_inject"], "account": "u0109"}
+{"id": "t00181", "text": "✅我的世界这次活动肝完了，奖励一般，不太值💰", "label": "benign", "subtype": "benign", "source_class": "benign", "perturb_ops": ["emoji_pad"], "account": "u0110"}
+{"id": "t00081", "text": "接蛋仔派对代练单，５８一段，手打国国国国标，包退", "label": "risk", "subtype": "boost", "source_class": "boost", "perturb_ops": ["fullwidth", "char_repeat"], "account": "u0111"}
+{"id": "t00026", "text": "纯讨论：出无畏契约外掛，58一个月，稳🚀​定不封，被封包退，加微微微微信kf880０", "label": "risk", "subtype": "cheat", "source_class": "cheat", "perturb_ops": ["fullwidth", "char_repeat", "zero_width", "emoji_inject", "traditional"], "account": "u0112"}
+{"id": "t00216", "text": "原神这个版本我角色满命了，开心", "label": "benign", "subtype": "benign", "source_class": "benign", "perturb_ops": [], "account": "u0113"}
+{"id": "t00072", "text": "🔥dl无畏契约，手打不刷机，包上上上上分，加微·信gzs666⚡", "label": "risk", "subtype": "boost", "source_class": "boost", "perturb_ops": ["emoji_pad", "separator", "char_repeat", "pinyin_abbr"], "account": "u0114"}
+{"id": "t00099", "text": "【求助】蛋仔派对呺99９出，满级全皮服，走​平台，秒换绑", "label": "risk", "subtype": "account", "source_class": "account", "perturb_ops": ["fullwidth", "zero_width", "homophone", "homophone"], "account": "u0114"}
+{"id": "t00078", "text": "崩坏星穹铁道代炼上分，手👉打国标，２天上王者，价|格便便便便宜可私_聊", "label": "risk", "subtype": "boost", "source_class": "boost", "perturb_ops": ["fullwidth", "separator", "char_repeat", "separator", "emoji_inject", "homophone"], "account": "u0114"}
+{"id": "t00054", "text": "求助各位大佬 代炼崩坏星穹铁道，手❗打不刷机，包✅上上上上分，加微信abc1２３", "label": "risk", "subtype": "boost", "source_class": "boost", "perturb_ops": ["fullwidth", "char_repeat", "emoji_inject", "emoji_inject", "homophone"], "account": "u0114"}
+{"id": "t00126", "text": "出英雄联盟账號128，全⚡皮夫满命，秒换绑，走平台担保", "label": "risk", "subtype": "account", "source_class": "account", "perturb_ops": ["homophone", "emoji_inject", "homophone", "traditional"], "account": "u0114"}
+{"id": "t00195", "text": "萌新问一句，看完三角洲行动的比赛，职业选手的意识真的强", "label": "benign", "subtype": "benign", "source_class": "benign", "perturb_ops": [], "account": "u0115"}
+{"id": "t00161", "text": "求助各位大佬 扫​码进⁠群领CS2福利", "label": "risk", "subtype": "traffic", "source_class": "traffic", "perturb_ops": ["zero_width", "zero_width"], "account": "u0116"}
+{"id": "t00087", "text": "代恋蛋仔派对，手手手手打不刷机，包上分，加微微微微信ｙx778８", "label": "risk", "subtype": "boost", "source_class": "boost", "perturb_ops": ["fullwidth", "char_repeat", "char_repeat", "homophone"], "account": "u0117"}
+{"id": "t00109", "text": "和平精英号８8出", "label": "risk", "subtype": "account", "source_class": "account", "perturb_ops": ["fullwidth"], "account": "u0117"}
+{"id": "t00207", "text": "我的世界这个版本我角色满命了，开心", "label": "benign", "subtype": "benign", "source_class": "benign", "perturb_ops": [], "account": "u0118"}
+{"id": "t00184", "text": "求问CＳ２的隐藏任务怎么触发，攻略说得含糊", "label": "benign", "subtype": "benign", "source_class": "benign", "perturb_ops": ["fullwidth"], "account": "u0118"}
+{"id": "t00102", "text": "蛋仔派对hao128出", "label": "risk", "subtype": "account", "source_class": "account", "perturb_ops": ["pinyin_abbr"], "account": "u0118"}
+{"id": "t00045", "text": "🚀纯讨论：接崩坏星穹铁道代炼单，３０一段，手打国​标，包_退👉", "label": "risk", "subtype": "boost", "source_class": "boost", "perturb_ops": ["fullwidth", "emoji_pad", "separator", "zero_width", "homophone"], "account": "u0119"}
+{"id": "t00262", "text": "英雄联盟社区里那些进群⁠领福利的", "label": "benign", "subtype": "mention", "source_class": "mention", "perturb_ops": ["zero_width"], "account": "u0120"}
+{"id": "t00024", "text": "CS2辅.助188，自|瞄锁‌头无后座，驱动级防防防防封，进群​领试用", "label": "risk", "subtype": "cheat", "source_class": "cheat", "perturb_ops": ["zero_width", "char_repeat", "zero_width", "separator", "separator"], "account": "u0121"}
+{"id": "t00160", "text": "💰萌新问一句，点头像看简介，扣1拉你进羣，三角洲行动资源全都有⚡", "label": "risk", "subtype": "traffic", "source_class": "traffic", "perturb_ops": ["emoji_pad", "homophone"], "account": "u0121"}
+{"id": "t00178", "text": "主页有联系方式，加微·信kf8800，蛋仔派对内部号号号号领取", "label": "risk", "subtype": "traffic", "source_class": "traffic", "perturb_ops": ["char_repeat", "separator"], "account": "u0122"}
+{"id": "t00232", "text": "❗刷到有人发永劫无间辅﻿助广告，我私私私私信骂了一顿然后举报了⚡", "label": "benign", "subtype": "mention", "source_class": "mention", "perturb_ops": ["emoji_pad", "char_repeat", "zero_width"], "account": "u0123"}
+{"id": "t00028", "text": "英雄联盟透視辅助188永久，支持安卓和模拟器，進群看演示视频", "label": "risk", "subtype": "cheat", "source_class": "cheat", "perturb_ops": ["traditional", "traditional"], "account": "u0124"}
+{"id": "t00083", "text": "接单暗区突围代*打，520起，可小刀，包上‍分不掉段", "label": "risk", "subtype": "boost", "source_class": "boost", "perturb_ops": ["zero_width", "separator"], "account": "u0125"}
+{"id": "t00025", "text": "求助各位大佬 和平精英物理外外外外挂30，自瞄透视，稳稳稳稳定不💰封，需要私聊", "label": "risk", "subtype": "cheat", "source_class": "cheat", "perturb_ops": ["emoji_inject", "char_repeat", "char_repeat"], "account": "u0126"}
+{"id": "t00039", "text": "纯讨论：出英雄联盟辅住３０，防‍封驱动已更新，老客户包更新，私🚀信我拿卡密", "label": "risk", "subtype": "cheat", "source_class": "cheat", "perturb_ops": ["fullwidth", "emoji_inject", "zero_width", "homophone"], "account": "u0127"}
+{"id": "t00075", "text": "🔥代練原神，手‌打不刷机，包上芬，加wx微微信vip2026🚀", "label": "risk", "subtype": "boost", "source_class": "boost", "perturb_ops": ["emoji_pad", "char_repeat", "homophone", "homophone", "zero_width", "traditional"], "account": "u0128"}
+{"id": "t00187", "text": "🚀和平精英这次活动肝完了🚀", "label": "benign", "subtype": "benign", "source_class": "benign", "perturb_ops": ["emoji_pad"], "account": "u0129"}
+{"id": "t00132", "text": "我的世界号128出，满级全💰皮夫，走平平平平台，秒换绑", "label": "risk", "subtype": "account", "source_class": "account", "perturb_ops": ["char_repeat", "homophone", "emoji_inject"], "account": "u0129"}
+{"id": "t00201", "text": "刚抽到新角色", "label": "benign", "subtype": "benign", "source_class": "benign", "perturb_ops": [], "account": "u0130"}
+{"id": "t00005", "text": "出王者荣耀辅助１２8", "label": "risk", "subtype": "cheat", "source_class": "cheat", "perturb_ops": ["fullwidth"], "account": "u0130"}
+{"id": "t00003", "text": "出三角洲行动辅​助999，防封驱动已更新，老客户包更新，私‍信我拿卡密", "label": "risk", "subtype": "cheat", "source_class": "cheat", "perturb_ops": ["zero_width", "zero_width"], "account": "u0130"}
+{"id": "t00257", "text": "请教一下，遇到卖外挂的应该在哪举🔥报，效率高一点", "label": "benign", "subtype": "mention", "source_class": "mention", "perturb_ops": ["emoji_inject"], "account": "u0131"}
+{"id": "t00158", "text": "点头像看简介，扣１拉你进⚡群，永劫无间资源全都有", "label": "risk", "subtype": "traffic", "source_class": "traffic", "perturb_ops": ["fullwidth", "emoji_inject"], "account": "u0132"}
+{"id": "t00034", "text": "崩坏星穹铁道辅助188，自自自自瞄锁头无后座，驱动级防封，进·群领试用", "label": "risk", "subtype": "cheat", "source_class": "cheat", "perturb_ops": ["homophone", "separator", "char_repeat"], "account": "u0133"}
+{"id": "t00040", "text": "🎮CS2辅助工具88永久，自⁠瞄透时，支持手机，稳​⁠定不封号⚡", "label": "risk", "subtype": "cheat", "source_class": "cheat", "perturb_ops": ["emoji_pad", "zero_width", "zero_width", "homophone", "zero_width"], "account": "u0134"}
+{"id": "t00155", "text": "扫码进.群﻿领蛋仔派对福利，活动仅限今天，加微﻿*信kf8800", "label": "risk", "subtype": "traffic", "source_class": "traffic", "perturb_ops": ["separator", "zero_width", "zero_width", "separator"], "account": "u0135"}
+{"id": "t00209", "text": "求助各位大佬 刚入坑永劫无间，请问先练哪个角色比较好", "label": "benign", "subtype": "benign", "source_class": "benign", "perturb_ops": [], "account": "u0136"}
+{"id": "t00237", "text": "刚遇到一个加﻿微🎮信卖外外外外褂的，话术一模一样，别上当", "label": "benign", "subtype": "mention", "source_class": "mention", "perturb_ops": ["homophone", "char_repeat", "emoji_inject", "zero_width"], "account": "u0136"}
+{"id": "t00245", "text": "萌新问一句，别买那些58永久的外外外外挂，基本都是骗钱的", "label": "benign", "subtype": "mention", "source_class": "mention", "perturb_ops": ["char_repeat"], "account": "u0137"}
+{"id": "t00192", "text": "萌新问一句，看完蛋仔派对的比赛，职业选手的意识真的强", "label": "benign", "subtype": "benign", "source_class": "benign", "perturb_ops": [], "account": "u0138"}
+{"id": "t00142", "text": "求助各位大佬 主页有联·系方式", "label": "risk", "subtype": "traffic", "source_class": "traffic", "perturb_ops": ["separator"], "account": "u0138"}
+{"id": "t00180", "text": "王者荣耀的地图设计我很喜欢，探索感很强", "label": "benign", "subtype": "benign", "source_class": "benign", "perturb_ops": [], "account": "u0138"}
+{"id": "t00258", "text": "求助各位大佬 别买那些298永久的外|挂，基本都是骗钱的", "label": "benign", "subtype": "mention", "source_class": "mention", "perturb_ops": ["separator"], "account": "u0138"}
+{"id": "t00084", "text": "代練无畏契约，手_打不刷机，包包包包上上上上分，加加加加weixinabc123", "label": "risk", "subtype": "boost", "source_class": "boost", "perturb_ops": ["pinyin_abbr", "char_repeat", "char_repeat", "char_repeat", "separator", "traditional"], "account": "u0139"}
+{"id": "t00172", "text": "私信我领永劫无间福利，加﻿vvvvxｇzs66６，每天更新", "label": "risk", "subtype": "traffic", "source_class": "traffic", "perturb_ops": ["fullwidth", "char_repeat", "zero_width"], "account": "u0140"}
+{"id": "t00254", "text": "无畏契约社区里那些进‍群⁠领福利的，八成是钓鱼，别点", "label": "benign", "subtype": "mention", "source_class": "mention", "perturb_ops": ["zero_width", "zero_width"], "account": "u0141"}
+{"id": "t00128", "text": "求助各位大佬 出崩坏星穹铁道zh520，全‌皮皮皮皮肤满命，秒换绑，走平台担保", "label": "risk", "subtype": "account", "source_class": "account", "perturb_ops": ["char_repeat", "zero_width", "homophone", "pinyin_abbr"], "account": "u0142"}
+{"id": "t00220", "text": "暗区突围这次活动肝完了，奖励一般，不太值", "label": "benign", "subtype": "benign", "source_class": "benign", "perturb_ops": [], "account": "u0143"}
+{"id": "t00002", "text": "❗出永劫无间外挂🎮，188一个月，稳﻿定不封，被封包💰退，加vxixinvip202６❗", "label": "risk", "subtype": "cheat", "source_class": "cheat", "perturb_ops": ["fullwidth", "emoji_pad", "pinyin_abbr", "homophone", "emoji_inject", "zero_width", "emoji_inject"], "account": "u0143"}
+{"id": "t00169", "text": "求助各位大佬 主页有联联联联系方式，加✅威信ａbc123，三角洲行动内部號领取", "label": "risk", "subtype": "traffic", "source_class": "traffic", "perturb_ops": ["fullwidth", "homophone", "homophone", "emoji_inject", "char_repeat"], "account": "u0144"}
+{"id": "t00205", "text": "【求助】英雄联盟这次活动肝完了，奖励一般，不太值", "label": "benign", "subtype": "benign", "source_class": "benign", "perturb_ops": [], "account": "u0144"}
+{"id": "t00018", "text": "求助各位大佬 王者荣耀辅住999，自‌瞄锁﻿头無后座，驱动級防封，进群❗领试用", "label": "risk", "subtype": "cheat", "source_class": "cheat", "perturb_ops": ["emoji_inject", "traditional", "traditional", "zero_width", "zero_width", "homophone"], "account": "u0144"}
+{"id": "t00193", "text": "看完和平精英的比赛，职业选手的意识真的强", "label": "benign", "subtype": "benign", "source_class": "benign", "perturb_ops": [], "account": "u0144"}
+{"id": "t00116", "text": "【求助】收崩坏星穹铁道号，价价价价格好商量，pm发图，走❗平台交易", "label": "risk", "subtype": "account", "source_class": "account", "perturb_ops": ["emoji_inject", "pinyin_abbr", "char_repeat", "separator"], "account": "u0145"}
+{"id": "t00243", "text": "💰求助各位大佬 ＣＳ2社区里那些進群领福利的🚀", "label": "benign", "subtype": "mention", "source_class": "mention", "perturb_ops": ["fullwidth", "emoji_pad", "homophone", "traditional"], "account": "u0146"}
+{"id": "t00032", "text": "🎮王者荣耀物理外挂8８，自自自自瞄透❗视，稳👉定不封，需要私 聊🔥", "label": "risk", "subtype": "cheat", "source_class": "cheat", "perturb_ops": ["fullwidth", "emoji_pad", "separator", "emoji_inject", "emoji_inject", "char_repeat"], "account": "u0147"}
+{"id": "t00244", "text": "原神社区里那些进群领福利的", "label": "benign", "subtype": "mention", "source_class": "mention", "perturb_ops": [], "account": "u0148"}
+{"id": "t00103", "text": "我的世界账號交易，满级满配，52０，走走走走平台，找回包赔", "label": "risk", "subtype": "account", "source_class": "account", "perturb_ops": ["fullwidth", "char_repeat", "homophone", "traditional"], "account": "u0148"}
+{"id": "t00029", "text": "萌新问一句，崩坏星穹铁道辅助88，自瞄锁头无后‍座，驱动级防封，进|群领试用", "label": "risk", "subtype": "cheat", "source_class": "cheat", "perturb_ops": ["separator", "zero_width"], "account": "u0148"}
+{"id": "t00073", "text": "求助各位大佬 王者荣耀dl上✅分，手手手手打国*标，2天上王者，價格便*宜可私聊", "label": "risk", "subtype": "boost", "source_class": "boost", "perturb_ops": ["separator", "traditional", "separator", "char_repeat", "emoji_inject", "pinyin_abbr"], "account": "u0148"}
+{"id": "t00052", "text": "代练和平精英，手打不刷机，包上‍分，加微⚡信vip2026", "label": "risk", "subtype": "boost", "source_class": "boost", "perturb_ops": ["emoji_inject", "zero_width"], "account": "u0148"}
+{"id": "t00139", "text": "楼主说得对，私·信我领三角洲行动福利，加​vxdd1688，每天更新", "label": "risk", "subtype": "traffic", "source_class": "traffic", "perturb_ops": ["zero_width", "separator"], "account": "u0149"}
+{"id": "t00251", "text": "我的世界社区里那些进进进进群领福利的，八成是钓鱼，别点", "label": "benign", "subtype": "mention", "source_class": "mention", "perturb_ops": ["char_repeat"], "account": "u0150"}
+{"id": "t00127", "text": "萌新问一句，我的世界账账账账號交易，满级满配，１２8，走-平-台，找‌回包赔", "label": "risk", "subtype": "account", "source_class": "account", "perturb_ops": ["fullwidth", "zero_width", "separator", "traditional", "char_repeat"], "account": "u0151"}
+{"id": "t00137", "text": "⚡楼主说得对，扫码进群群群群领蛋仔派对福利🚀", "label": "risk", "subtype": "traffic", "source_class": "traffic", "perturb_ops": ["emoji_pad", "char_repeat"], "account": "u0152"}
+{"id": "t00100", "text": "永劫无间账hao号*交*易", "label": "risk", "subtype": "account", "source_class": "account", "perturb_ops": ["separator", "separator", "homophone"], "account": "u0153"}
+{"id": "t00186", "text": "纯讨论：记录一下王者荣耀的第100小时", "label": "benign", "subtype": "benign", "source_class": "benign", "perturb_ops": [], "account": "u0154"}
+{"id": "t00179", "text": "✅求助各位大佬 点头像看-简-介，扣👉1拉你进✅群‌，崩坏星穹铁道资源全都有👉", "label": "risk", "subtype": "traffic", "source_class": "traffic", "perturb_ops": ["emoji_pad", "zero_width", "emoji_inject", "emoji_inject", "separator"], "account": "u0155"}
+{"id": "t00077", "text": "接单蛋仔派对代打", "label": "risk", "subtype": "boost", "source_class": "boost", "perturb_ops": [], "account": "u0156"}
+{"id": "t00041", "text": "【求助】出无畏契约辅辅辅辅助188，防封驱动已更新，老客户包更新，私🚀信我拿卡密", "label": "risk", "subtype": "cheat", "source_class": "cheat", "perturb_ops": ["emoji_inject", "char_repeat"], "account": "u0156"}
+{"id": "t00215", "text": "【求助】求问我的世界的隐藏任务怎么触发，攻略说得含糊", "label": "benign", "subtype": "benign", "source_class": "benign", "perturb_ops": [], "account": "u0156"}
+{"id": "t00149", "text": "点头像看简简简简介，扣-1拉你进群，英雄联盟资源全都有", "label": "risk", "subtype": "traffic", "source_class": "traffic", "perturb_ops": ["separator", "char_repeat"], "account": "u0156"}
+{"id": "t00163", "text": "萌新问一句，私信我领无畏契约福利，加*v.xviｐ2026，每天更新", "label": "risk", "subtype": "traffic", "source_class": "traffic", "perturb_ops": ["fullwidth", "separator", "separator"], "account": "u0156"}
+{"id": "t00113", "text": "原神账‍号交易，满级满配，520，走💰平台，找回​包赔", "label": "risk", "subtype": "account", "source_class": "account", "perturb_ops": ["zero_width", "emoji_inject", "zero_width"], "account": "u0157"}
+{"id": "t00022", "text": "👉出蛋仔派对辅助520，防封驱动已更新，老客户包更新，私信我拿卡密👉", "label": "risk", "subtype": "cheat", "source_class": "cheat", "perturb_ops": ["emoji_pad"], "account": "u0158"}
+{"id": "t00133", "text": "出王者荣耀zh298，全​皮肤满命，秒秒秒秒换绑，走平台担保", "label": "risk", "subtype": "account", "source_class": "account", "perturb_ops": ["char_repeat", "zero_width", "traditional", "pinyin_abbr"], "account": "u0159"}
+{"id": "t00202", "text": "看完英雄联盟的比赛，职业选手的意识真的强", "label": "benign", "subtype": "benign", "source_class": "benign", "perturb_ops": [], "account": "u0160"}
+{"id": "t00013", "text": "出和平精英外挂，30一个月，穩定不封，被封包退，加微信vip2026", "label": "risk", "subtype": "cheat", "source_class": "cheat", "perturb_ops": ["traditional", "separator"], "account": "u0161"}
+{"id": "t00097", "text": "【求助】收无畏契约号✅，价格好商量，私私私私信发图，走平台交易", "label": "risk", "subtype": "account", "source_class": "account", "perturb_ops": ["char_repeat", "emoji_inject"], "account": "u0162"}
+{"id": "t00080", "text": "💰接英雄联盟代⚡练单，58一段，手⁠打国标，包退✅", "label": "risk", "subtype": "boost", "source_class": "boost", "perturb_ops": ["emoji_pad", "zero_width", "emoji_inject"], "account": "u0163"}
+{"id": "t00198", "text": "看完原神的比赛，职业选手的意识真的强", "label": "benign", "subtype": "benign", "source_class": "benign", "perturb_ops": [], "account": "u0163"}

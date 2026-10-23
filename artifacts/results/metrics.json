@@ -1,0 +1,1034 @@
+{
+ "generated_at": "2026-10-23 14:57:26",
+ "dataset": {
+  "train": {
+   "n": 660,
+   "risk": 440
+  },
+  "val": {
+   "n": 132,
+   "risk": 88
+  },
+  "val_adv": {
+   "n": 132,
+   "risk": 88
+  },
+  "test_clean": {
+   "n": 270,
+   "risk": 180
+  },
+  "test_adv": {
+   "n": 270,
+   "risk": 180
+  },
+  "test_pervasive": {
+   "n": 270,
+   "risk": 180
+  },
+  "test_holdout": {
+   "n": 270,
+   "risk": 180
+  }
+ },
+ "text": {
+  "threshold": 0.38,
+  "final_config": "⑤ 混合模型（n-gram+规则特征）",
+  "tier_table": [
+   {
+    "tier": "block",
+    "n": 151,
+    "true_risk": 151,
+    "precision": 1.0,
+    "share_of_risk": 0.8389,
+    "threshold": 0.82
+   },
+   {
+    "tier": "review",
+    "n": 13,
+    "true_risk": 11,
+    "precision": 0.8462,
+    "share_of_risk": 0.0611,
+    "threshold": 0.68
+   },
+   {
+    "tier": "watch",
+    "n": 24,
+    "true_risk": 10,
+    "precision": 0.4167,
+    "share_of_risk": 0.0556,
+    "threshold": 0.4
+   },
+   {
+    "tier": "allow",
+    "n": 82,
+    "true_risk": 8,
+    "precision": 0.0976,
+    "share_of_risk": 0.0444,
+    "threshold": null
+   }
+  ],
+  "configs": [
+   {
+    "config": "① 规则·原始文本",
+    "threshold": 0.36,
+    "test_clean": {
+     "tp": 168,
+     "fp": 33,
+     "fn": 12,
+     "tn": 57,
+     "precision": 0.8358,
+     "recall": 0.9333,
+     "f1": 0.8819,
+     "fpr": 0.3667,
+     "accuracy": 0.8333,
+     "auc": 0.9272
+    },
+    "test_adv": {
+     "tp": 137,
+     "fp": 15,
+     "fn": 43,
+     "tn": 75,
+     "precision": 0.9013,
+     "recall": 0.7611,
+     "f1": 0.8253,
+     "fpr": 0.1667,
+     "accuracy": 0.7852,
+     "auc": 0.8138
+    },
+    "test_pervasive": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 180,
+     "tn": 90,
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "fpr": 0.0,
+     "accuracy": 0.3333,
+     "auc": 0.5
+    },
+    "test_holdout": {
+     "tp": 162,
+     "fp": 15,
+     "fn": 18,
+     "tn": 75,
+     "precision": 0.9153,
+     "recall": 0.9,
+     "f1": 0.9076,
+     "fpr": 0.1667,
+     "accuracy": 0.8778,
+     "auc": 0.9185
+    }
+   },
+   {
+    "config": "② 规则·归一化",
+    "threshold": 0.36,
+    "test_clean": {
+     "tp": 168,
+     "fp": 33,
+     "fn": 12,
+     "tn": 57,
+     "precision": 0.8358,
+     "recall": 0.9333,
+     "f1": 0.8819,
+     "fpr": 0.3667,
+     "accuracy": 0.8333,
+     "auc": 0.9272
+    },
+    "test_adv": {
+     "tp": 164,
+     "fp": 33,
+     "fn": 16,
+     "tn": 57,
+     "precision": 0.8325,
+     "recall": 0.9111,
+     "f1": 0.87,
+     "fpr": 0.3667,
+     "accuracy": 0.8185,
+     "auc": 0.9006
+    },
+    "test_pervasive": {
+     "tp": 168,
+     "fp": 30,
+     "fn": 12,
+     "tn": 60,
+     "precision": 0.8485,
+     "recall": 0.9333,
+     "f1": 0.8889,
+     "fpr": 0.3333,
+     "accuracy": 0.8444,
+     "auc": 0.9194
+    },
+    "test_holdout": {
+     "tp": 163,
+     "fp": 21,
+     "fn": 17,
+     "tn": 69,
+     "precision": 0.8859,
+     "recall": 0.9056,
+     "f1": 0.8956,
+     "fpr": 0.2333,
+     "accuracy": 0.8593,
+     "auc": 0.904
+    }
+   },
+   {
+    "config": "③ 字符模型·原始文本",
+    "threshold": 0.36,
+    "test_clean": {
+     "tp": 180,
+     "fp": 26,
+     "fn": 0,
+     "tn": 64,
+     "precision": 0.8738,
+     "recall": 1.0,
+     "f1": 0.9326,
+     "fpr": 0.2889,
+     "accuracy": 0.9037,
+     "auc": 0.999
+    },
+    "test_adv": {
+     "tp": 179,
+     "fp": 26,
+     "fn": 1,
+     "tn": 64,
+     "precision": 0.8732,
+     "recall": 0.9944,
+     "f1": 0.9299,
+     "fpr": 0.2889,
+     "accuracy": 0.9,
+     "auc": 0.9977
+    },
+    "test_pervasive": {
+     "tp": 179,
+     "fp": 21,
+     "fn": 1,
+     "tn": 69,
+     "precision": 0.895,
+     "recall": 0.9944,
+     "f1": 0.9421,
+     "fpr": 0.2333,
+     "accuracy": 0.9185,
+     "auc": 0.9931
+    },
+    "test_holdout": {
+     "tp": 180,
+     "fp": 17,
+     "fn": 0,
+     "tn": 73,
+     "precision": 0.9137,
+     "recall": 1.0,
+     "f1": 0.9549,
+     "fpr": 0.1889,
+     "accuracy": 0.937,
+     "auc": 0.9978
+    }
+   },
+   {
+    "config": "④ 字符模型·归一化",
+    "threshold": 0.36,
+    "test_clean": {
+     "tp": 180,
+     "fp": 31,
+     "fn": 0,
+     "tn": 59,
+     "precision": 0.8531,
+     "recall": 1.0,
+     "f1": 0.9207,
+     "fpr": 0.3444,
+     "accuracy": 0.8852,
+     "auc": 0.9991
+    },
+    "test_adv": {
+     "tp": 180,
+     "fp": 30,
+     "fn": 0,
+     "tn": 60,
+     "precision": 0.8571,
+     "recall": 1.0,
+     "f1": 0.9231,
+     "fpr": 0.3333,
+     "accuracy": 0.8889,
+     "auc": 0.998
+    },
+    "test_pervasive": {
+     "tp": 180,
+     "fp": 20,
+     "fn": 0,
+     "tn": 70,
+     "precision": 0.9,
+     "recall": 1.0,
+     "f1": 0.9474,
+     "fpr": 0.2222,
+     "accuracy": 0.9259,
+     "auc": 0.9987
+    },
+    "test_holdout": {
+     "tp": 180,
+     "fp": 24,
+     "fn": 0,
+     "tn": 66,
+     "precision": 0.8824,
+     "recall": 1.0,
+     "f1": 0.9375,
+     "fpr": 0.2667,
+     "accuracy": 0.9111,
+     "auc": 0.9976
+    }
+   },
+   {
+    "config": "⑤ 混合模型（n-gram+规则特征）",
+    "threshold": 0.38,
+    "test_clean": {
+     "tp": 174,
+     "fp": 15,
+     "fn": 6,
+     "tn": 75,
+     "precision": 0.9206,
+     "recall": 0.9667,
+     "f1": 0.9431,
+     "fpr": 0.1667,
+     "accuracy": 0.9222,
+     "auc": 0.9907
+    },
+    "test_adv": {
+     "tp": 172,
+     "fp": 18,
+     "fn": 8,
+     "tn": 72,
+     "precision": 0.9053,
+     "recall": 0.9556,
+     "f1": 0.9297,
+     "fpr": 0.2,
+     "accuracy": 0.9037,
+     "auc": 0.9836
+    },
+    "test_pervasive": {
+     "tp": 173,
+     "fp": 11,
+     "fn": 7,
+     "tn": 79,
+     "precision": 0.9402,
+     "recall": 0.9611,
+     "f1": 0.9505,
+     "fpr": 0.1222,
+     "accuracy": 0.9333,
+     "auc": 0.9859
+    },
+    "test_holdout": {
+     "tp": 165,
+     "fp": 4,
+     "fn": 15,
+     "tn": 86,
+     "precision": 0.9763,
+     "recall": 0.9167,
+     "f1": 0.9456,
+     "fpr": 0.0444,
+     "accuracy": 0.9296,
+     "auc": 0.9864
+    }
+   }
+  ],
+  "operating_points": [
+   {
+    "target_fpr": 0.01,
+    "threshold": 0.8,
+    "recall": 0.8611,
+    "fpr": 0.0,
+    "precision": 1.0
+   },
+   {
+    "target_fpr": 0.03,
+    "threshold": 0.68,
+    "recall": 0.9,
+    "fpr": 0.0222,
+    "precision": 0.9878
+   },
+   {
+    "target_fpr": 0.05,
+    "threshold": 0.63,
+    "recall": 0.9167,
+    "fpr": 0.0444,
+    "precision": 0.9763
+   },
+   {
+    "target_fpr": 0.1,
+    "threshold": 0.49,
+    "recall": 0.9333,
+    "fpr": 0.1,
+    "precision": 0.9492
+   },
+   {
+    "target_fpr": 0.2,
+    "threshold": 0.36,
+    "recall": 0.9611,
+    "fpr": 0.2,
+    "precision": 0.9058
+   }
+  ],
+  "per_class_recall": {
+   "cheat": 1.0,
+   "boost": 1.0,
+   "account": 0.8222,
+   "traffic": 1.0
+  },
+  "benign_hit_rate": {
+   "benign": 0.0222,
+   "mention": 0.3778
+  },
+  "subtype_accuracy": 0.9111,
+  "explain_coverage": 0.9211,
+  "recovered_rate_adv": 0.7301,
+  "latency_ms": {
+   "mean": 0.455,
+   "p95": 0.628
+  },
+  "errors": {
+   "fp": 18,
+   "fn": 8,
+   "total": 26,
+   "fp_examples": [
+    {
+     "text": "👉暗区突围外|挂🔥最近好像变多了❗",
+     "p": 0.4642,
+     "hits": [
+      "外挂"
+     ],
+     "neg": 0.0
+    },
+    {
+     "text": "和平精英官方公告说严查代练",
+     "p": 0.4839,
+     "hits": [
+      "代练"
+     ],
+     "neg": 0.0
+    },
+    {
+     "text": "纯讨论：崩坏星穹铁道社区里那些进_群领福利的",
+     "p": 0.6792,
+     "hits": [
+      "进群"
+     ],
+     "neg": 0.0
+    },
+    {
+     "text": "求助各位大佬 永劫无间官方公告说严查代代代代练",
+     "p": 0.5121,
+     "hits": [
+      "代练"
+     ],
+     "neg": 0.0
+    },
+    {
+     "text": "纯讨论：别买那些１2８永久的外掛，基本都是骗钱的",
+     "p": 0.3875,
+     "hits": [
+      "外挂",
+      "别买"
+     ],
+     "neg": 2.0
+    },
+    {
+     "text": "CS２社区里那些进|群领福利的，八成是钓鱼，别点",
+     "p": 0.592,
+     "hits": [
+      "进群"
+     ],
+     "neg": 0.0
+    }
+   ],
+   "fn_examples": [
+    {
+     "text": "路过顺便说一句，萌新问一句，收我的世界号，價格好商量，私信发图，走平台交易",
+     "p": 0.1425,
+     "ops": [
+      "traditional"
+     ]
+    },
+    {
+     "text": "收三角洲行动号，價錢好商量，私信发图，走平平平平台交易",
+     "p": 0.314,
+     "ops": [
+      "char_repeat",
+      "homophone",
+      "separator"
+     ]
+    },
+    {
+     "text": "收永劫无间号，价价价价格好商量，私信发图，走_平_台交易",
+     "p": 0.3733,
+     "ops": [
+      "separator",
+      "char_repeat"
+     ]
+    },
+    {
+     "text": "收蛋仔派对号，价格好商量，私信发图，走平台交易",
+     "p": 0.3065,
+     "ops": []
+    },
+    {
+     "text": "收我的世界号，价格好商量，私芯发图，走平台交易",
+     "p": 0.2867,
+     "ops": [
+      "homophone"
+     ]
+    },
+    {
+     "text": "同求，另外问下，纯讨论：收和平精英呺，价格好商量，私👉信发图，走_平_台交易",
+     "p": 0.2432,
+     "ops": [
+      "separator",
+      "emoji_inject",
+      "homophone"
+     ]
+    }
+   ]
+  },
+  "train_seconds": 9.11,
+  "samples": [
+   {
+    "id": "t00130",
+    "text": "路过顺便说一句，萌新问一句，收我的世界号，價格好商量，私信发图，走平台交易",
+    "norm": "路过顺便说一句,萌新问一句,收我的世界号,价格好商量,私信发图,走平台交易",
+    "trace": [
+     {
+      "step": "NFKC 兼容字符标准化",
+      "before": "路过顺便说一句，萌新问一句，收我的世界号，價格好商量，私信发图，走平台交易",
+      "after": "路过顺便说一句,萌新问一句,收我的世界号,價格好商量,私信发图,走平台交易"
+     },
+     {
+      "step": "繁转简",
+      "before": "路过顺便说一句,萌新问一句,收我的世界号,價格好商量,私信发图,走平台交易",
+      "after": "路过顺便说一句,萌新问一句,收我的世界号,价格好商量,私信发图,走平台交易"
+     }
+    ],
+    "label": "risk",
+    "source_class": "account",
+    "p": 0.1425,
+    "p_model": 0.1425,
+    "p_rule": 0.3742,
+    "action": "allow",
+    "action_cn": "放行",
+    "recovered": [],
+    "hits": [
+     {
+      "class": "account",
+      "term": "走平台",
+      "weight": 1.5,
+      "count": 1
+     }
+    ],
+    "neg_hits": [],
+    "perturb_ops": [
+     "traditional"
+    ]
+   },
+   {
+    "id": "t00014",
+    "text": "出崩坏星穹铁道辅﻿助298，防封驱动已更新，老客户包更新，私私私私信我拿卡密",
+    "norm": "出崩坏星穹铁道辅助298,防封驱动已更新,老客户包更新,私信我拿卡密",
+    "trace": [
+     {
+      "step": "NFKC 兼容字符标准化",
+      "before": "出崩坏星穹铁道辅﻿助298，防封驱动已更新，老客户包更新，私私私私信我拿卡密",
+      "after": "出崩坏星穹铁道辅﻿助298,防封驱动已更新,老客户包更新,私私私私信我拿卡密"
+     },
+     {
+      "step": "剥离零宽/不可见字符",
+      "before": "出崩坏星穹铁道辅﻿助298,防封驱动已更新,老客户包更新,私私私私信我拿卡密",
+      "after": "出崩坏星穹铁道辅助298,防封驱动已更新,老客户包更新,私私私私信我拿卡密"
+     },
+     {
+      "step": "折叠重复字符",
+      "before": "出崩坏星穹铁道辅助298,防封驱动已更新,老客户包更新,私私私私信我拿卡密",
+      "after": "出崩坏星穹铁道辅助298,防封驱动已更新,老客户包更新,私信我拿卡密"
+     }
+    ],
+    "label": "risk",
+    "source_class": "cheat",
+    "p": 0.9959,
+    "p_model": 0.9959,
+    "p_rule": 0.665,
+    "action": "block",
+    "action_cn": "拦截",
+    "recovered": [],
+    "hits": [
+     {
+      "class": "cheat",
+      "term": "防封",
+      "weight": 2.0,
+      "count": 1
+     },
+     {
+      "class": "cheat",
+      "term": "卡密",
+      "weight": 1.5,
+      "count": 1
+     },
+     {
+      "class": "traffic",
+      "term": "私信我",
+      "weight": 2.5,
+      "count": 1
+     }
+    ],
+    "neg_hits": [],
+    "perturb_ops": [
+     "char_repeat",
+     "zero_width"
+    ]
+   },
+   {
+    "id": "t00162",
+    "text": "点头像看简介",
+    "norm": "点头像看简介",
+    "trace": [],
+    "label": "risk",
+    "source_class": "traffic",
+    "p": 0.9723,
+    "p_model": 0.9723,
+    "p_rule": 0.7135,
+    "action": "block",
+    "action_cn": "拦截",
+    "recovered": [],
+    "hits": [
+     {
+      "class": "traffic",
+      "term": "点头像",
+      "weight": 2.0,
+      "count": 1
+     },
+     {
+      "class": "traffic",
+      "term": "看简介",
+      "weight": 2.0,
+      "count": 1
+     }
+    ],
+    "neg_hits": [],
+    "perturb_ops": []
+   },
+   {
+    "id": "t00049",
+    "text": "接单崩坏星穹铁道代打，128起，可*小*刀，包上上上上分不掉段",
+    "norm": "接单崩坏星穹铁道代打,128起,可小刀,包上分不掉段",
+    "trace": [
+     {
+      "step": "NFKC 兼容字符标准化",
+      "before": "接单崩坏星穹铁道代打，128起，可*小*刀，包上上上上分不掉段",
+      "after": "接单崩坏星穹铁道代打,128起,可*小*刀,包上上上上分不掉段"
+     },
+     {
+      "step": "折叠分隔符",
+      "before": "接单崩坏星穹铁道代打,128起,可*小*刀,包上上上上分不掉段",
+      "after": "接单崩坏星穹铁道代打,128起,可小刀,包上上上上分不掉段"
+     },
+     {
+      "step": "折叠重复字符",
+      "before": "接单崩坏星穹铁道代打,128起,可小刀,包上上上上分不掉段",
+      "after": "接单崩坏星穹铁道代打,128起,可小刀,包上分不掉段"
+     }
+    ],
+    "label": "risk",
+    "source_class": "boost",
+    "p": 0.999,
+    "p_model": 0.999,
+    "p_rule": 0.8466,
+    "action": "block",
+    "action_cn": "拦截",
+    "recovered": [
+     "包上分",
+     "可小刀"
+    ],
+    "hits": [
+     {
+      "class": "boost",
+      "term": "代打",
+      "weight": 2.5,
+      "count": 1
+     },
+     {
+      "class": "boost",
+      "term": "上分",
+      "weight": 1.5,
+      "count": 1
+     },
+     {
+      "class": "boost",
+      "term": "包上分",
+      "weight": 2.0,
+      "count": 1
+     },
+     {
+      "class": "account",
+      "term": "可小刀",
+      "weight": 1.5,
+      "count": 1
+     }
+    ],
+    "neg_hits": [],
+    "perturb_ops": [
+     "char_repeat",
+     "separator"
+    ]
+   },
+   {
+    "id": "t00239",
+    "text": "🎮请教一下，遇到卖外挂👉的应该在哪举报，效率高一点💰",
+    "norm": "请教一下,遇到卖外挂的应该在哪举报,效率高一点",
+    "trace": [
+     {
+      "step": "NFKC 兼容字符标准化",
+      "before": "🎮请教一下，遇到卖外挂👉的应该在哪举报，效率高一点💰",
+      "after": "🎮请教一下,遇到卖外挂👉的应该在哪举报,效率高一点💰"
+     },
+     {
+      "step": "剥离 emoji 分隔",
+      "before": "🎮请教一下,遇到卖外挂👉的应该在哪举报,效率高一点💰",
+      "after": "请教一下,遇到卖外挂的应该在哪举报,效率高一点"
+     }
+    ],
+    "label": "benign",
+    "source_class": "mention",
+    "p": 0.0098,
+    "p_model": 0.0098,
+    "p_rule": 0.3574,
+    "action": "allow",
+    "action_cn": "放行",
+    "recovered": [],
+    "hits": [
+     {
+      "class": "cheat",
+      "term": "外挂",
+      "weight": 3.0,
+      "count": 1
+     }
+    ],
+    "neg_hits": [
+     {
+      "class": "context_neg",
+      "term": "举报",
+      "weight": 3.0,
+      "count": 1
+     }
+    ],
+    "perturb_ops": [
+     "emoji_pad",
+     "emoji_inject"
+    ]
+   },
+   {
+    "id": "t00092",
+    "text": "永劫无间账hao交易",
+    "norm": "永劫无间账号交易",
+    "trace": [
+     {
+      "step": "展开拼音缩写",
+      "before": "永劫无间账hao交易",
+      "after": "永劫无间账号交易"
+     }
+    ],
+    "label": "risk",
+    "source_class": "account",
+    "p": 0.6467,
+    "p_model": 0.6467,
+    "p_rule": 0.5422,
+    "action": "watch",
+    "action_cn": "观察（进抽检队列）",
+    "recovered": [
+     "账号交易"
+    ],
+    "hits": [
+     {
+      "class": "account",
+      "term": "账号交易",
+      "weight": 2.5,
+      "count": 1
+     }
+    ],
+    "neg_hits": [],
+    "perturb_ops": [
+     "homophone"
+    ]
+   },
+   {
+    "id": "t00189",
+    "text": "求推荐永劫无间里适合新手的角色，我现在只有三个五星",
+    "norm": "求推荐永劫无间里适合新手的角色,我现在只有三个五星",
+    "trace": [
+     {
+      "step": "NFKC 兼容字符标准化",
+      "before": "求推荐永劫无间里适合新手的角色，我现在只有三个五星",
+      "after": "求推荐永劫无间里适合新手的角色,我现在只有三个五星"
+     }
+    ],
+    "label": "benign",
+    "source_class": "benign",
+    "p": 0.0253,
+    "p_model": 0.0253,
+    "p_rule": 0.0,
+    "action": "allow",
+    "action_cn": "放行",
+    "recovered": [],
+    "hits": [],
+    "neg_hits": [],
+    "perturb_ops": []
+   },
+   {
+    "id": "t00234",
+    "text": "👉暗区突围外|挂🔥最近好像变多了❗",
+    "norm": "暗区突围外挂最近好像变多了",
+    "trace": [
+     {
+      "step": "剥离 emoji 分隔",
+      "before": "👉暗区突围外|挂🔥最近好像变多了❗",
+      "after": "暗区突围外|挂最近好像变多了"
+     },
+     {
+      "step": "折叠分隔符",
+      "before": "暗区突围外|挂最近好像变多了",
+      "after": "暗区突围外挂最近好像变多了"
+     }
+    ],
+    "label": "benign",
+    "source_class": "mention",
+    "p": 0.4642,
+    "p_model": 0.4642,
+    "p_rule": 0.6084,
+    "action": "watch",
+    "action_cn": "观察（进抽检队列）",
+    "recovered": [
+     "外挂"
+    ],
+    "hits": [
+     {
+      "class": "cheat",
+      "term": "外挂",
+      "weight": 3.0,
+      "count": 1
+     }
+    ],
+    "neg_hits": [],
+    "perturb_ops": [
+     "emoji_pad",
+     "emoji_inject",
+     "separator"
+    ]
+   },
+   {
+    "id": "t00186",
+    "text": "纯讨论：记录一下王者荣耀的第100小时",
+    "norm": "纯讨论:记录一下王者荣耀的第100小时",
+    "trace": [
+     {
+      "step": "NFKC 兼容字符标准化",
+      "before": "纯讨论：记录一下王者荣耀的第100小时",
+      "after": "纯讨论:记录一下王者荣耀的第100小时"
+     }
+    ],
+    "label": "benign",
+    "source_class": "benign",
+    "p": 0.6302,
+    "p_model": 0.6302,
+    "p_rule": 0.0,
+    "action": "watch",
+    "action_cn": "观察（进抽检队列）",
+    "recovered": [],
+    "hits": [],
+    "neg_hits": [],
+    "perturb_ops": []
+   }
+  ]
+ },
+ "account": {
+  "tp": 117,
+  "fp": 7,
+  "fn": 5,
+  "tn": 34,
+  "precision": 0.9435,
+  "recall": 0.959,
+  "f1": 0.9512,
+  "fpr": 0.1707,
+  "accuracy": 0.9264,
+  "accounts": 163,
+  "multi_post_accounts": 47
+ },
+ "image": {
+  "metrics": {
+   "tp": 41,
+   "fp": 2,
+   "fn": 11,
+   "tn": 50,
+   "precision": 0.9535,
+   "recall": 0.7885,
+   "f1": 0.8632,
+   "fpr": 0.0385,
+   "accuracy": 0.875,
+   "auc": 0.9734,
+   "chosen_features": [
+    "ela_p99_med",
+    "ela_local_contrast",
+    "ela_local_dip",
+    "ela_tail",
+    "ela_cv",
+    "noise_cv",
+    "noise_p99_med",
+    "noise_local_drop",
+    "noise_dip_area",
+    "ghost_p99_med",
+    "ghost_local_contrast",
+    "edge_err_corr",
+    "green_ratio"
+   ],
+   "localization": {
+    "mean_hit": 0.3042,
+    "hit_over_30pct": 0.5192
+   },
+   "latency_ms": 171.3
+  },
+  "per_kind": {
+   "pristine": {
+    "误报率": 0.0,
+    "n": 26
+   },
+   "clean_resaved": {
+    "误报率": 0.0769,
+    "n": 26
+   },
+   "copy_move": {
+    "召回率": 0.8077,
+    "n": 26
+   },
+   "splice": {
+    "召回率": 0.7692,
+    "n": 26
+   }
+  },
+  "feature_ablation": [
+   {
+    "tp": 29,
+    "fp": 21,
+    "fn": 23,
+    "tn": 31,
+    "precision": 0.58,
+    "recall": 0.5577,
+    "f1": 0.5686,
+    "fpr": 0.4038,
+    "accuracy": 0.5769,
+    "auc": 0.6028,
+    "tag": "仅 ELA 特征（经典手法）",
+    "n_features": 5
+   },
+   {
+    "tp": 41,
+    "fp": 2,
+    "fn": 11,
+    "tn": 50,
+    "precision": 0.9535,
+    "recall": 0.7885,
+    "f1": 0.8632,
+    "fpr": 0.0385,
+    "accuracy": 0.875,
+    "auc": 0.9501,
+    "tag": "仅噪声残差特征",
+    "n_features": 4
+   },
+   {
+    "tp": 41,
+    "fp": 2,
+    "fn": 11,
+    "tn": 50,
+    "precision": 0.9535,
+    "recall": 0.7885,
+    "f1": 0.8632,
+    "fpr": 0.0385,
+    "accuracy": 0.875,
+    "auc": 0.9682,
+    "tag": "噪声 + 全局辅助特征",
+    "n_features": 6
+   },
+   {
+    "tp": 41,
+    "fp": 2,
+    "fn": 11,
+    "tn": 50,
+    "precision": 0.9535,
+    "recall": 0.7885,
+    "f1": 0.8632,
+    "fpr": 0.0385,
+    "accuracy": 0.875,
+    "auc": 0.9734,
+    "tag": "ELA + 噪声 + 辅助（全部）",
+    "n_features": 13
+   }
+  ],
+  "cv": [
+   {
+    "tag": "仅 ELA 特征（经典手法）",
+    "cv_auc_mean": 0.5013,
+    "cv_auc_std": 0.0608,
+    "n_features": 5,
+    "features": [
+     "ela_p99_med",
+     "ela_local_contrast",
+     "ela_local_dip",
+     "ela_tail",
+     "ela_cv"
+    ]
+   },
+   {
+    "tag": "仅噪声残差特征",
+    "cv_auc_mean": 0.9924,
+    "cv_auc_std": 0.0094,
+    "n_features": 4,
+    "features": [
+     "noise_cv",
+     "noise_p99_med",
+     "noise_local_drop",
+     "noise_dip_area"
+    ]
+   },
+   {
+    "tag": "噪声 + 全局辅助特征",
+    "cv_auc_mean": 0.9936,
+    "cv_auc_std": 0.0101,
+    "n_features": 6,
+    "features": [
+     "noise_cv",
+     "noise_p99_med",
+     "noise_local_drop",
+     "noise_dip_area",
+     "edge_err_corr",
+     "green_ratio"
+    ]
+   },
+   {
+    "tag": "ELA + 噪声 + 辅助（全部）",
+    "cv_auc_mean": 0.9962,
+    "cv_auc_std": 0.0048,
+    "n_features": 13,
+    "features": [
+     "ela_p99_med",
+     "ela_local_contrast",
+     "ela_local_dip",
+     "ela_tail",
+     "ela_cv",
+     "noise_cv",
+     "noise_p99_med",
+     "noise_local_drop",
+     "noise_dip_area",
+     "ghost_p99_med",
+     "ghost_local_contrast",
+     "edge_err_corr",
+     "green_ratio"
+    ]
+   }
+  ],
+  "chosen": "ELA + 噪声 + 辅助（全部）",
+  "train_seconds": 55.46,
+  "n_test": 104,
+  "n_train": 184
+ }
+}

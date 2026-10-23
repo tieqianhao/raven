@@ -1,0 +1,43 @@
+# ---------------- Python ----------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---------------- Node ----------------
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# ---------------- 运行中间产物 ----------------
+# 对拍脚本跑完会删，异常中断时会残留
+artifacts/parity_in.json
+artifacts/parity_out.json
+*.tmp
+*.log
+
+# ---------------- 简历：含真实姓名与联系方式，不入公开仓库 ----------------
+# 构建脚本（build_docx.py / verify.py）仍然开源，指向任意同结构的 HTML 即可
+resume/resume.html
+resume/*.pdf
+resume/*.docx
+resume/*.png
+
+# 桌面留档 / 打包产物的误入防护
+*.zip
+Raven项目-面试包/
+
+# ---------------- 编辑器 / 系统 ----------------
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini

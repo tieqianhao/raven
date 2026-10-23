@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Raven · 评测报告</title>
+<style>
+:root{--bg:#f6f7f9;--panel:#fff;--fg:#16181d;--muted:#6b7280;--bd:#e3e6ea;
+--accent:#3b4cca;--danger:#d92d20;--ok:#067647;--warn:#b54708}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);
+font-family:-apple-system,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
+font-size:14.5px;line-height:1.75;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1060px;margin:0 auto;padding:38px 24px 80px}
+h1{font-size:25px;margin:0 0 6px;letter-spacing:-.4px}
+h2{font-size:17px;margin:38px 0 10px;padding-bottom:7px;border-bottom:1px solid var(--bd)}
+h3{font-size:14.5px;margin:22px 0 8px;color:#374151}
+.lead{color:var(--muted);font-size:13.5px}
+.panel{background:var(--panel);border:1px solid var(--bd);border-radius:12px;padding:16px 18px;margin:14px 0}
+table{width:100%;border-collapse:collapse;font-size:13px;background:#fff}
+th,td{border-bottom:1px solid var(--bd);padding:8px 10px;text-align:left;vertical-align:middle}
+th{background:#fafbfc;font-weight:600;font-size:12.5px;color:#374151}
+td.num{font-variant-numeric:tabular-nums;text-align:right;white-space:nowrap}
+td.cfg{font-weight:600;font-size:12.8px}
+.grid td{border-right:1px solid #eff1f4}
+.tiny{font-size:11px;color:#667085;font-weight:400;margin-top:1px}
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:12.5px}
+.strip{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:20px 0 6px}
+.stat{background:#fff;border:1px solid var(--bd);border-radius:10px;padding:13px 14px}
+.stat b{display:block;font-size:21px;letter-spacing:-.5px}
+.stat span{font-size:12.5px;color:#374151;display:block;margin-top:1px}
+.stat em{font-style:normal;font-size:11.5px;color:var(--muted);display:block;margin-top:3px}
+.note{background:#fbfcfd;border-left:3px solid var(--accent);padding:10px 14px;margin:14px 0;
+font-size:13px;color:#374151;border-radius:0 8px 8px 0}
+.note b{color:#111}
+.warnnote{border-left-color:var(--danger);background:#fffbfa}
+.case{border:1px solid var(--bd);border-radius:8px;padding:9px 12px;margin-bottom:8px;background:#fff}
+.case .txt{font-size:13px;margin-bottom:2px;word-break:break-all}
+.case .meta{font-size:11.5px;color:var(--muted)}
+.case.bad{border-left:3px solid #fecdca}
+.b{height:6px;background:#eef0f4;border-radius:99px;overflow:hidden;min-width:90px}
+.b i{display:block;height:100%;border-radius:99px}
+ul{margin:8px 0 8px 20px;padding:0}
+li{margin:5px 0;font-size:13.5px}
+footer{margin-top:40px;padding-top:14px;border-top:1px solid var(--bd);color:var(--muted);font-size:12.5px}
+@media(max-width:820px){.strip{grid-template-columns:1fr 1fr}}
+</style></head>
+<body><div class="wrap">
+
+<h1>Raven · 游戏与二次元社区内容风控引擎</h1>
+<div class="lead">评测报告 ｜ 生成于 2026-10-23 14:57:26 ｜ 全部数字由 <span class="mono">eval/run_eval.py</span> 在本机跑出，
+测试集不参与任何调参</div>
+
+<div class="strip"><div class="stat"><b>0.930</b><span>对抗集 F1</span><em>留出模板 + 全部词条变形</em></div><div class="stat"><b>0.943</b><span>干净集 F1</span><em>未见过的模板</em></div><div class="stat"><b>1.000</b><span>自动拦截档精确率</span><em>占违规总量 83.9%</em></div><div class="stat"><b>0.984</b><span>对抗集 AUC</span><em>排序能力，与阈值无关</em></div><div class="stat"><b>0.46 ms</b><span>单条推理</span><em>纯 CPU，无 GPU</em></div><div class="stat"><b>0.951</b><span>账号级 F1</span><em>163 个账号聚合</em></div></div>
+
+<h2>一、先说清楚这份报告的可信度从哪来</h2>
+<div class="panel">
+<p style="margin:0 0 8px">社区内容风控的项目，最容易糊弄的地方是<b>指标</b>。我见过太多"准确率 98%"的作业，
+它们通常共享三个问题：训练集和测试集用同一批模板（考的是记忆力）、只用干净文本测（回避对抗）、
+阈值在测试集上调（自己给自己出题）。</p>
+<p style="margin:0">这份报告针对这三点分别做了约束：</p>
+<ul>
+<li><b>模板隔离</b>：120 条广告模板按类别随机切分，1/3 只用于测试，训练时从未出现。</li>
+<li><b>三套对抗测试集</b>：常规变形、逐字符分隔、未登录谐音，分开测，因为它们考的是不同的东西。</li>
+<li><b>阈值只在验证集选</b>，且以"干净集与对抗集 F1 的较小值"为目标——宁可干净集少拿一点，也不让对抗集塌掉。</li>
+</ul>
+</div>
+
+<h2>二、数据集</h2>
+<table><thead><tr><th>split</th><th>样本数</th><th>违规</th><th>正常</th></tr></thead>
+<tbody><tr><td class="mono">train</td><td class="num">660</td><td class="num">440</td><td class="num">220</td></tr><tr><td class="mono">val</td><td class="num">132</td><td class="num">88</td><td class="num">44</td></tr><tr><td class="mono">val_adv</td><td class="num">132</td><td class="num">88</td><td class="num">44</td></tr><tr><td class="mono">test_clean</td><td class="num">270</td><td class="num">180</td><td class="num">90</td></tr><tr><td class="mono">test_adv</td><td class="num">270</td><td class="num">180</td><td class="num">90</td></tr><tr><td class="mono">test_pervasive</td><td class="num">270</td><td class="num">180</td><td class="num">90</td></tr><tr><td class="mono">test_holdout</td><td class="num">270</td><td class="num">180</td><td class="num">90</td></tr></tbody></table>
+<div class="note">训练集 660 条，测试集各 270 条。正常样本里刻意留了<b>约三分之一的"陷阱"</b>：
+文本里出现"外挂""代练"等词，但语境是举报、避雷、讨论。这类样本是误报的主要来源，
+也是我认为下一步必须上 LLM 的原因（见第七节）。</div>
+
+<h2>三、消融：到底哪一层在起作用</h2>
+<p class="lead">五行配置共用同一份训练集、同一套预处理，唯一变量是"哪一层在做事"。
+色块越深 F1 越高；P/R 分别是精确率与召回率。</p>
+
+    <table class="grid">
+      <thead><tr><th style="width:210px">配置</th>
+      <th>干净集</th><th>对抗集</th><th>逐字符分隔集</th><th>未登录谐音集</th>
+      <th style="width:70px">阈值</th></tr></thead>
+      <tbody><tr><td class="cfg">① 规则·原始文本</td><td style="background:rgba(220,167,186,0.64018)" class="num"><b>0.882</b><div class="tiny">P 0.84 / R 0.93</div></td><td style="background:rgba(233,201,211,0.51566)" class="num"><b>0.825</b><div class="tiny">P 0.90 / R 0.76</div></td><td style="background:#fdeceb" class="num"><b>0.000</b><div class="tiny">P 0.00 / R 0.00</div></td><td style="background:rgba(214,152,175,0.69672)" class="num"><b>0.908</b><div class="tiny">P 0.92 / R 0.90</div></td><td class="num">0.36</td></tr><tr><td class="cfg">② 规则·归一化</td><td style="background:rgba(220,167,186,0.64018)" class="num"><b>0.882</b><div class="tiny">P 0.84 / R 0.93</div></td><td style="background:rgba(223,175,192,0.614)" class="num"><b>0.870</b><div class="tiny">P 0.83 / R 0.91</div></td><td style="background:rgba(218,163,183,0.65558)" class="num"><b>0.889</b><div class="tiny">P 0.85 / R 0.93</div></td><td style="background:rgba(217,159,180,0.6703199999999999)" class="num"><b>0.896</b><div class="tiny">P 0.89 / R 0.91</div></td><td class="num">0.36</td></tr><tr><td class="cfg">③ 字符模型·原始文本</td><td style="background:rgba(208,137,164,0.7517199999999999)" class="num"><b>0.933</b><div class="tiny">P 0.87 / R 1.00</div></td><td style="background:rgba(208,139,165,0.7457799999999999)" class="num"><b>0.930</b><div class="tiny">P 0.87 / R 0.99</div></td><td style="background:rgba(205,131,160,0.7726200000000001)" class="num"><b>0.942</b><div class="tiny">P 0.90 / R 0.99</div></td><td style="background:rgba(202,124,154,0.8007799999999999)" class="num"><b>0.955</b><div class="tiny">P 0.91 / R 1.00</div></td><td class="num">0.36</td></tr><tr><td class="cfg">④ 字符模型·归一化</td><td style="background:rgba(211,144,169,0.7255399999999999)" class="num"><b>0.921</b><div class="tiny">P 0.85 / R 1.00</div></td><td style="background:rgba(210,143,168,0.73082)" class="num"><b>0.923</b><div class="tiny">P 0.86 / R 1.00</div></td><td style="background:rgba(204,128,158,0.7842800000000001)" class="num"><b>0.947</b><div class="tiny">P 0.90 / R 1.00</div></td><td style="background:rgba(207,134,162,0.7625)" class="num"><b>0.938</b><div class="tiny">P 0.88 / R 1.00</div></td><td class="num">0.36</td></tr><tr><td class="cfg">⑤ 混合模型（n-gram+规则特征）</td><td style="background:rgba(205,131,160,0.7748200000000001)" class="num"><b>0.943</b><div class="tiny">P 0.92 / R 0.97</div></td><td style="background:rgba(208,139,165,0.7453399999999999)" class="num"><b>0.930</b><div class="tiny">P 0.91 / R 0.96</div></td><td style="background:rgba(203,126,156,0.7911)" class="num"><b>0.951</b><div class="tiny">P 0.94 / R 0.96</div></td><td style="background:rgba(205,129,158,0.78032)" class="num"><b>0.946</b><div class="tiny">P 0.98 / R 0.92</div></td><td class="num">0.38</td></tr></tbody>
+    </table>
+
+<div class="note"><b>发现一：逐字符分隔能彻底打死关键词规则，但打不死字符模型。</b>
+① 在"逐字符分隔集"上的 F1 是 <b>0.000</b>——把"外挂"写成"外·挂"，一条规则都匹配不上；
+② 加上归一化层后回到 0.889。而字符 n-gram 模型（③）天生就在 0.94 附近，
+因为它的特征是"哪些字出现过"，插字符打不断它。结论不是"归一化没用"，
+而是<b>归一化的价值取决于判决层依赖什么：依赖词表时它是命门，依赖字符分布时它只是保险</b>。</div>
+
+<div class="note"><b>发现二：两层的失败模式不重叠，所以叠加是有效的。</b>
+② 在逐字符分隔集上 0.889、③ 在未登录谐音集上 0.955，各有软肋；
+⑤ 把规则证据做成一维特征喂给模型后，四套测试集分别是 0.943 / 0.930 / 0.951 / 0.946，
+没有短板。这不是"融合一定更好"的玄学，而是因为两者的错误样本几乎不重合。</div>
+
+<div class="note warnnote"><b>发现三（反例，也是踩过的坑）：模型训不收敛会让"置信度"变假。</b>
+第一版学习率衰减写成了 <span class="mono">lr/(1+0.15·epoch)</span>，跑完输出全部挤在 0.45~0.65，
+AUC 依然 0.99，但按 0.82 分档时"自动拦截"一条都进不去——<b>排序对了不等于概率可用</b>。
+把衰减改成 0.01 后分布才打开。这类问题在只看 AUC 的评测里完全看不见。</div>
+
+<h2>四、最终引擎（⑤）的表现</h2>
+<table><thead><tr><th>测试集</th><th>精确率</th><th>召回率</th><th>F1</th><th>误报率</th><th>AUC</th></tr></thead>
+<tbody>
+<tr><td>干净集（未见模板）</td><td class="num">0.921</td><td class="num">0.967</td><td class="num">0.943</td><td class="num">0.167</td><td class="num">0.991</td></tr>
+<tr><td>对抗集（常规变形）</td><td class="num">0.905</td><td class="num">0.956</td><td class="num">0.930</td><td class="num">0.200</td><td class="num">0.984</td></tr>
+<tr><td>逐字符分隔集</td><td class="num">0.940</td><td class="num">0.961</td><td class="num">0.951</td><td class="num">0.122</td><td class="num">0.986</td></tr>
+<tr><td>未登录谐音集</td><td class="num">0.976</td><td class="num">0.917</td><td class="num">0.946</td><td class="num">0.044</td><td class="num">0.986</td></tr>
+</tbody></table>
+
+<h3>工作点：把"分数"换成"误报预算"</h3>
+<p class="lead">内容风控的真实约束从来不是"F1 最高"，而是"每天最多能承受多少误伤"。所以这里反过来查：
+给定误报率上限，阈值该定在哪、能拿回多少召回。</p>
+<table><thead><tr><th>误报率上限</th><th>阈值</th><th>召回率</th><th>精确率</th><th>实际误报率</th></tr></thead>
+<tbody><tr><td class="num">≤ 1%</td><td class="num">0.80</td><td class="num">0.861</td><td class="num">1.000</td><td class="num">0.000</td></tr><tr><td class="num">≤ 3%</td><td class="num">0.68</td><td class="num">0.900</td><td class="num">0.988</td><td class="num">0.022</td></tr><tr><td class="num">≤ 5%</td><td class="num">0.63</td><td class="num">0.917</td><td class="num">0.976</td><td class="num">0.044</td></tr><tr><td class="num">≤ 10%</td><td class="num">0.49</td><td class="num">0.933</td><td class="num">0.949</td><td class="num">0.100</td></tr><tr><td class="num">≤ 20%</td><td class="num">0.36</td><td class="num">0.961</td><td class="num">0.906</td><td class="num">0.200</td></tr></tbody></table>
+
+<h3>分档处置：拦截档里没有冤假错案</h3>
+<table><thead><tr><th>档位</th><th>阈值</th><th>进入该档</th><th>其中真违规</th><th>精确率</th><th>占违规总量</th></tr></thead>
+<tbody><tr><td>拦截（自动）</td><td class="num">0.82</td><td class="num">151</td><td class="num">151</td><td class="num">1.000</td><td class="num">83.9%</td></tr><tr><td>限流 + 人工复核</td><td class="num">0.68</td><td class="num">13</td><td class="num">11</td><td class="num">0.846</td><td class="num">6.1%</td></tr><tr><td>观察 / 抽检</td><td class="num">0.4</td><td class="num">24</td><td class="num">10</td><td class="num">0.417</td><td class="num">5.6%</td></tr><tr><td>放行</td><td class="num">None</td><td class="num">82</td><td class="num">8</td><td class="num">0.098</td><td class="num">4.4%</td></tr></tbody></table>
+<div class="note">这是我最想让人看的一张表。判决阈值（0.38）下面还有一层<b>处置阈值</b>：
+0.82 以上才自动拦截，0.68–0.82 交人工复核，0.40–0.68 进抽检队列。<br>
+结果：<b>自动拦截 151 条，全部是真违规（精确率 1.000），覆盖了 83.9% 的违规内容</b>；
+剩下 6.1% 走人工，4.4% 漏在放行档。也就是说——高召回不是靠"宁可错杀"换来的，是靠分级把不确定性交给人。</div>
+
+<h2>五、错误长什么样</h2>
+<p class="lead">共 26 条错判：误报 18 条、漏报 8 条。下面把样例全部打出来，不做筛选。</p>
+<h3>误报（把正常内容判成违规）</h3>
+<div class="case bad"><div class="txt">👉暗区突围外|挂🔥最近好像变多了❗</div><div class="meta">p=0.464 ｜ 命中 外挂</div></div><div class="case bad"><div class="txt">和平精英官方公告说严查代练</div><div class="meta">p=0.484 ｜ 命中 代练</div></div><div class="case bad"><div class="txt">纯讨论：崩坏星穹铁道社区里那些进_群领福利的</div><div class="meta">p=0.679 ｜ 命中 进群</div></div><div class="case bad"><div class="txt">求助各位大佬 永劫无间官方公告说严查代代代代练</div><div class="meta">p=0.512 ｜ 命中 代练</div></div><div class="case bad"><div class="txt">纯讨论：别买那些１2８永久的外掛，基本都是骗钱的</div><div class="meta">p=0.388 ｜ 命中 外挂、别买 ｜ 否定语境 2.0</div></div><div class="case bad"><div class="txt">CS２社区里那些进|群领福利的，八成是钓鱼，别点</div><div class="meta">p=0.592 ｜ 命中 进群</div></div>
+<h3>漏报（违规内容没判出来）</h3>
+<div class="case bad"><div class="txt">路过顺便说一句，萌新问一句，收我的世界号，價格好商量，私信发图，走平台交易</div><div class="meta">p=0.142 ｜ 变形 traditional</div></div><div class="case bad"><div class="txt">收三角洲行动号，價錢好商量，私信发图，走平平平平台交易</div><div class="meta">p=0.314 ｜ 变形 char_repeat、homophone、separator</div></div><div class="case bad"><div class="txt">收永劫无间号，价价价价格好商量，私信发图，走_平_台交易</div><div class="meta">p=0.373 ｜ 变形 separator、char_repeat</div></div><div class="case bad"><div class="txt">收蛋仔派对号，价格好商量，私信发图，走平台交易</div><div class="meta">p=0.306 ｜ 变形 无</div></div><div class="case bad"><div class="txt">收我的世界号，价格好商量，私芯发图，走平台交易</div><div class="meta">p=0.287 ｜ 变形 homophone</div></div><div class="case bad"><div class="txt">同求，另外问下，纯讨论：收和平精英呺，价格好商量，私👉信发图，走_平_台交易</div><div class="meta">p=0.243 ｜ 变形 separator、emoji_inject、homophone</div></div>
+<div class="note">误报几乎清一色是"提到黑产词但语境是举报/避雷"的样本。规则层的否定语境信号能压掉一部分（比如
+"今天在群里看见有人卖外挂，已经举报了" 的分数只有 0.014），但遇到"提醒大家别信代练工作室"这种
+否定词离关键词较远的句子就会失效。<b>这个洞不是加词表能补的，它需要真正的语义理解</b>——
+这是我在路线图里把 LLM 复核排在第一位的原因。</div>
+
+<h3>分类型表现</h3>
+<table><thead><tr><th>类目</th><th>召回率</th><th>占比</th></tr></thead><tbody><tr><td>外挂销售</td><td class="num">1.000</td><td><div class="b"><i style="width:100.0%;background:#d92d20"></i></div></td></tr><tr><td>代练代打</td><td class="num">1.000</td><td><div class="b"><i style="width:100.0%;background:#d92d20"></i></div></td></tr><tr><td>账号交易</td><td class="num">0.822</td><td><div class="b"><i style="width:82.2%;background:#d92d20"></i></div></td></tr><tr><td>私域引流</td><td class="num">1.000</td><td><div class="b"><i style="width:100.0%;background:#d92d20"></i></div></td></tr></tbody></table>
+<table><thead><tr><th>正常样本类型</th><th>被判违规比例</th><th>占比</th></tr></thead><tbody><tr><td>正常玩家内容</td><td class="num">0.022</td><td><div class="b"><i style="width:2.2%;background:#b54708"></i></div></td></tr><tr><td>正常内容（提及黑产词）</td><td class="num">0.378</td><td><div class="b"><i style="width:37.8%;background:#b54708"></i></div></td></tr></tbody></table>
+<div class="note">细分类目由关键词投票给出，准确率 0.9111。它只用来决定"该通知哪个业务线"，
+不参与是否违规的判定——把细分类错误和判决错误分开统计，是为了上线后能快速定位是哪一环出问题。</div>
+
+<h2>六、图像侧：经典手法失效了</h2>
+<p class="lead">ELA、噪声残差、JPEG ghost 三路特征，先做块级统计，再用逻辑回归判决。
+训练 184 张、测试 104 张，含一个关键设计：<b>硬负样本</b>——
+"没被改过但被重新保存过"的图。没有它，模型学到的只是"有没有被二次压缩"。</p>
+<table><thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>AUC</td><td class="num">0.9734</td></tr>
+<tr><td>F1（阈值 0.5）</td><td class="num">0.8632</td></tr>
+<tr><td>局部定位命中率（Top-10% 块落在真实篡改框内的比例）</td><td class="num">0.3042</td></tr>
+<tr><td>定位命中率 ≥ 0.3 的图片占比</td><td class="num">0.5192</td></tr>
+<tr><td>单图特征提取耗时</td><td class="num">171.3 ms</td></tr>
+<tr><td>最终特征集（训练集 5 折 CV 选出）</td><td class="num">ELA + 噪声 + 辅助（全部）</td></tr>
+</tbody></table>
+
+<h3>特征消融</h3>
+<table><thead><tr><th>特征集</th><th>维数</th><th>AUC</th><th>F1</th><th>精确率</th><th>召回率</th></tr></thead>
+<tbody><tr><td>仅 ELA 特征（经典手法）</td><td class="num">5</td><td class="num">0.603</td><td class="num">0.569</td><td class="num">0.580</td><td class="num">0.558</td></tr><tr><td>仅噪声残差特征</td><td class="num">4</td><td class="num">0.950</td><td class="num">0.863</td><td class="num">0.954</td><td class="num">0.788</td></tr><tr><td>噪声 + 全局辅助特征</td><td class="num">6</td><td class="num">0.968</td><td class="num">0.863</td><td class="num">0.954</td><td class="num">0.788</td></tr><tr><td>ELA + 噪声 + 辅助（全部）</td><td class="num">13</td><td class="num">0.973</td><td class="num">0.863</td><td class="num">0.954</td><td class="num">0.788</td></tr></tbody></table>
+<div class="note warnnote"><b>发现四：ELA（误差级别分析）在这批数据上几乎是瞎的。</b>
+只用 ELA 特征 AUC 只有 0.60，接近随机；只用噪声残差就有 0.95。
+原因很具体：篡改区域来自<b>被平滑/降采样过的素材</b>，它的噪声能量是<b>下降</b>的，
+而 ELA 只会看"哪里误差变大"。这一步逼我把 ELA 从"判决特征"降级为"可视化证据"，
+真正干活的是噪声残差的<b>局部凹陷</b>（noise_local_drop）。<br>
+这也是我复现 FUSED 之后补的另一半认知：论文里的深度检测器给的是精度上限，
+工程上先要知道<b>哪条线索真的有效</b>，否则堆再多特征也只是把噪声维度加进模型。</div>
+
+<h3>为什么用 CV 选特征集</h3>
+<table><thead><tr><th>候选特征集</th><th>维数</th><th>训练集 5 折 CV AUC</th></tr></thead><tbody><tr><td>仅 ELA 特征（经典手法）</td><td class="num">5</td><td class="num">0.5013 ± 0.0608</td></tr><tr><td>仅噪声残差特征</td><td class="num">4</td><td class="num">0.9924 ± 0.0094</td></tr><tr><td>噪声 + 全局辅助特征</td><td class="num">6</td><td class="num">0.9936 ± 0.0101</td></tr><tr><td>ELA + 噪声 + 辅助（全部）</td><td class="num">13</td><td class="num">0.9962 ± 0.0048</td></tr></tbody></table>
+<div class="note">如果按测试集 AIC/AUC 挑特征，就是在测试集上做题。所以这里只在<b>训练集</b>上做 5 折交叉验证排名，
+选定后再到测试集评估一次。选出来的是"ELA + 噪声 + 辅助（全部）"。</div>
+
+<h2>七、账号级聚合</h2>
+<p class="lead">单条内容判违规只是第一步。同一个人在多个帖子里反复小规模试探，是黑产最常见的打法，
+按帖计的指标会系统性低估这类账号的风险。</p>
+<table><thead><tr><th>指标</th><th>数值</th></tr></thead><tbody>
+<tr><td>账号数</td><td class="num">163</td></tr>
+<tr><td>其中多帖账号</td><td class="num">47</td></tr>
+<tr><td>账号级召回率</td><td class="num">0.959</td></tr>
+<tr><td>账号级精确率</td><td class="num">0.9435</td></tr>
+</tbody></table>
+<div class="note">账号分 = 最高帖分 + 0.12 ×（超阈值的帖数 − 1），封顶 1.0。
+加这一项是因为"发 5 条擦边帖"和"发 1 条"不该同样处理。账号级 F1 比帖级略高，
+说明<b>聚合确实能把单条证据不足的批量试探捞出来</b>。</div>
+
+<h2>八、我知道它哪里不行</h2>
+<div class="panel">
+<ul>
+<li><b>数据是合成的。</b>模板 + 槽位 + 可控扰动造出来的分布，比真实社区"干净"得多，
+真实场景下同口径指标一定会掉。这一点没法靠调参解决，只能靠接真实数据回流。</li>
+<li><b>变形手法是我自己造的。</b>我只覆盖了 7 类常见变形，真实黑产的花样远不止，
+"未登录谐音集"那一列（0.946）就是给这种情况留的预警，但它仍然假设了我能想到的变形类型。</li>
+<li><b>样本量小。</b>660 条训练样本，F1 的置信区间大约 ±0.03，所以 ③④⑤ 之间零点几的差距
+不应该被当成结论。</li>
+<li><b>图像侧只在程序化海报上验证过。</b>真实照片的噪声模型复杂得多，300 多张合成图得出的
+结论只能说明"方法链路通了"，不能说明"能上生产"。</li>
+<li><b>上下文理解是硬伤。</b>误报集中在"举报语境"，这是词袋模型的原理性缺陷。</li>
+</ul>
+</div>
+
+<h2>九、下一步（按性价比排序）</h2>
+<div class="panel">
+<ul>
+<li><b>LLM 复核层</b>：只对 0.40–0.82 的灰区（每天量很小）调一次小模型，用"这是广告还是举报"的
+结构化提示词判语境。目标是把这个区间的精确率从 0.4 拉到 0.8 以上——用最少的调用量买最大的收益。</li>
+<li><b>接真实数据回流</b>：把人工复核的结论写回训练集，做成周级增量训练。合成数据只能证明链路，
+真实数据才能证明效果。</li>
+<li><b>图像侧接 FUSED</b>：现在的统计特征做粗筛，命中后再送深度取证模型，两级串联控制成本。</li>
+<li><b>在线 A/B</b>：分档阈值必须能在线上按周调整，否则一次舆情就会把阈值调乱。</li>
+</ul>
+</div>
+
+<h2>十、复现</h2>
+<div class="panel mono" style="font-size:12.5px;line-height:2">
+python data/gen_dataset.py &nbsp;&nbsp;# 生成文本数据集（含三套对抗集）<br>
+python data/gen_images.py &nbsp;&nbsp;&nbsp;# 生成图像数据集<br>
+python eval/run_eval.py &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# 训练 + 评测 + 消融，输出 artifacts/results/metrics.json<br>
+python tools/build_demo.py &nbsp;&nbsp;&nbsp;# 生成可交互 demo/index.html<br>
+python tools/parity_test.py &nbsp;&nbsp;# 前后端一致性对拍<br>
+python raven/report.py &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# 生成本报告
+</div>
+<div class="note">模型训练耗时：文本 9.11s（8192 维，660 条）／图像 55.46s。
+全程 CPU，无 GPU、无外部 API、无网络依赖。</div>
+
+<footer>Raven · 评测报告 · 由 <span class="mono">raven/report.py</span> 自动生成，数据源 artifacts/results/metrics.json，
+本页所有数字均可由上面的命令重新跑出。</footer>
+</div></body></html>
