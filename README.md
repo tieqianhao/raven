@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/OWNER/raven/actions/workflows/ci.yml/badge.svg)](https://github.com/OWNER/raven/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/)
+[![Python 3.12+](https://img.shields.io/badge/python-3.12%2B-blue.svg)](https://www.python.org/)
 [![Dependencies: numpy + Pillow](https://img.shields.io/badge/deps-numpy%20%2B%20Pillow-informational.svg)](requirements.txt)
 
 > 一个从零到能跑、能测、能被质疑的黑产内容识别系统。纯 CPU、无外部 API、无网络依赖，

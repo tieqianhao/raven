@@ -15,8 +15,12 @@ CI 里跑它，等于给"我说过的数字"上了一道回归测试。
 
 用法：
     python tools/check_metrics.py                 # 比对，默认容差 1e-3
-    python tools/check_metrics.py --tol 1e-4      # 收紧
+    python tools/check_metrics.py --tol 5e-3      # 跨平台/跨环境时放宽（CI 用这个）
     python tools/check_metrics.py --update        # 把当前结果写回基线（确认是有意改动后再用）
+
+关于容差：模型训练里有 `x @ w`，走 BLAS。同一平台逐位可复现，但不同 OS 的
+OpenBLAS 在浮点累加顺序上可能有 1e-7 级差异，经 SGD 迭代可能翻转极个别样本。
+所以容差不是"随便给的宽松度"，而是"这台机器与基线机器的环境差异预算"。
 """
 import argparse
 import json
