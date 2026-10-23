@@ -137,6 +137,21 @@ def train_text_models(splits=None, seed=0):
     }
 
 
+def resolve_image_path(p):
+    """把 jsonl 里的 path 解析成真实可读路径。
+
+    数据集里存的是**相对仓库根**的路径（`artifacts/dataset/images/xxx.jpg`），
+    这样换机器、换操作系统都能跑。但早期版本存过绝对路径，这里做兼容：
+    绝对路径存在就直接用，不存在就退化成"按文件名在 images 目录里找"。
+    """
+    if os.path.isabs(p):
+        if os.path.exists(p):
+            return p
+        cand = os.path.join(ART, "dataset", "images", os.path.basename(p))
+        return cand if os.path.exists(cand) else p
+    return os.path.normpath(os.path.join(ROOT, p))
+
+
 def image_dataset_features():
     train_rows = read_jsonl(os.path.join(ART, "dataset", "images", "images_train.jsonl"))
     test_rows = read_jsonl(os.path.join(ART, "dataset", "images", "images_test.jsonl"))
@@ -144,7 +159,7 @@ def image_dataset_features():
     def build(rows):
         X = []
         for r in rows:
-            vec, _, _ = extract(load_image(r["path"]))
+            vec, _, _ = extract(load_image(resolve_image_path(r["path"])))
             X.append(vec)
         return np.array(X, dtype=np.float32)
 

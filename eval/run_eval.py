@@ -22,6 +22,7 @@ from raven.image_forensics import FEATURE_NAMES, extract, iou_with_bbox, load as
 from raven.normalize import normalize
 from raven.lexicon import THRESHOLDS
 from raven.pipeline import (ART, TextEngine, build_bundle, image_dataset_features, read_jsonl,
+                            resolve_image_path,
                             save_bundle, text_splits, train_image_model, train_text_models)
 from raven.text_model import (DIM, LogisticModel, featurize, featurize_hybrid, rule_score,
                               subtype_vote)
@@ -300,7 +301,7 @@ def main():
     loc = []
     for r in test_img_rows:
         if r["bbox"]:
-            _, _, heat = extract(load_image(r["path"]))
+            _, _, heat = extract(load_image(resolve_image_path(r["path"])))
             loc.append(iou_with_bbox(heat, r["bbox"]))
     img_m["localization"] = {"mean_hit": round(float(np.mean(loc)), 4),
                              "hit_over_30pct": round(float(np.mean([h >= 0.3 for h in loc])), 4)}
@@ -318,7 +319,7 @@ def main():
 
     t = time.perf_counter()
     for r in test_img_rows[:20]:
-        extract(load_image(r["path"]))
+        extract(load_image(resolve_image_path(r["path"])))
     img_ms = round((time.perf_counter() - t) / 20 * 1000, 1)
     img_m["latency_ms"] = img_ms
 

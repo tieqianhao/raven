@@ -13,7 +13,19 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from raven.image_forensics import load, make_poster, save_jpeg, tamper
 
-OUT = os.path.join(os.path.dirname(__file__), "..", "artifacts", "dataset", "images")
+HERE = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.dirname(HERE)
+OUT = os.path.join(ROOT, "artifacts", "dataset", "images")
+
+
+def rel(p: str) -> str:
+    """jsonl 里存**相对仓库根**的路径。
+
+    存绝对路径会让数据集换台机器就打不开（作者本机是
+    C:\\Users\\...\\raven\\...，到了 CI 的 /home/runner/... 直接报
+    FileNotFoundError）。这个坑是在第一次 CI 跑 --skip-gen 时暴露的。
+    """
+    return os.path.relpath(p, ROOT).replace("\\", "/")
 
 
 def build(split: str, n_base: int, seed0: int):
@@ -26,17 +38,17 @@ def build(split: str, n_base: int, seed0: int):
 
         p = os.path.join(OUT, f"{split}_{i:03d}_pristine.jpg")
         save_jpeg(base, p, 88)
-        rows.append({"path": p, "label": "clean", "kind": "pristine", "base": seed, "bbox": None})
+        rows.append({"path": rel(p), "label": "clean", "kind": "pristine", "base": seed, "bbox": None})
 
         p = os.path.join(OUT, f"{split}_{i:03d}_resaved.jpg")
         save_jpeg(base, p, 92)
-        rows.append({"path": p, "label": "clean", "kind": "clean_resaved", "base": seed, "bbox": None})
+        rows.append({"path": rel(p), "label": "clean", "kind": "clean_resaved", "base": seed, "bbox": None})
 
         for mode in ("copy_move", "splice"):
             t, bbox = tamper(base, seed + (11 if mode == "copy_move" else 23), mode, donor)
             p = os.path.join(OUT, f"{split}_{i:03d}_{mode}.jpg")
             save_jpeg(t, p, 92)
-            rows.append({"path": p, "label": "tampered", "kind": mode, "base": seed, "bbox": bbox})
+            rows.append({"path": rel(p), "label": "tampered", "kind": mode, "base": seed, "bbox": bbox})
     return rows
 
 

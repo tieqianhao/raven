@@ -16,7 +16,7 @@ from PIL import Image
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from raven.image_forensics import FEATURE_NAMES, extract, load as load_image
-from raven.pipeline import ART, read_jsonl
+from raven.pipeline import ART, read_jsonl, resolve_image_path
 from raven.text_model import HAND_DIM, LogisticModel
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -45,11 +45,11 @@ def image_cases(bundle):
         for r in rows:
             if r["kind"] != kind:
                 continue
-            vec, feats, heat = extract(load_image(r["path"]))
+            vec, feats, heat = extract(load_image(resolve_image_path(r["path"])))
             p = float(m.proba(((vec[idx] - mu) / sd)[None, :])[0])
             if not cond(p):
                 continue
-            img = load_image(r["path"])
+            img = load_image(resolve_image_path(r["path"]))
             img.thumbnail((320, 320))
             buf = io.BytesIO()
             img.save(buf, format="JPEG", quality=72)

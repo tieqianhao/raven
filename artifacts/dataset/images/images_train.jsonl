@@ -1,184 +1,184 @@
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_000_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1000, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_000_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1000, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_000_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1000, "bbox": [176, 155, 263, 242]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_000_splice.jpg", "label": "tampered", "kind": "splice", "base": 1000, "bbox": [34, 320, 119, 410]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_001_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1001, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_001_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1001, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_001_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1001, "bbox": [296, 260, 410, 348]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_001_splice.jpg", "label": "tampered", "kind": "splice", "base": 1001, "bbox": [143, 243, 246, 332]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_002_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1002, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_002_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1002, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_002_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1002, "bbox": [270, 86, 348, 203]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_002_splice.jpg", "label": "tampered", "kind": "splice", "base": 1002, "bbox": [178, 96, 292, 215]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_003_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1003, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_003_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1003, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_003_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1003, "bbox": [320, 89, 425, 185]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_003_splice.jpg", "label": "tampered", "kind": "splice", "base": 1003, "bbox": [353, 227, 460, 307]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_004_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1004, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_004_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1004, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_004_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1004, "bbox": [239, 56, 342, 147]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_004_splice.jpg", "label": "tampered", "kind": "splice", "base": 1004, "bbox": [315, 369, 422, 440]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_005_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1005, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_005_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1005, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_005_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1005, "bbox": [113, 191, 221, 274]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_005_splice.jpg", "label": "tampered", "kind": "splice", "base": 1005, "bbox": [53, 302, 157, 420]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_006_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1006, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_006_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1006, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_006_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1006, "bbox": [246, 147, 375, 272]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_006_splice.jpg", "label": "tampered", "kind": "splice", "base": 1006, "bbox": [296, 132, 399, 252]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_007_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1007, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_007_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1007, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_007_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1007, "bbox": [247, 253, 370, 358]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_007_splice.jpg", "label": "tampered", "kind": "splice", "base": 1007, "bbox": [279, 391, 371, 475]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_008_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1008, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_008_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1008, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_008_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1008, "bbox": [50, 279, 140, 362]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_008_splice.jpg", "label": "tampered", "kind": "splice", "base": 1008, "bbox": [318, 73, 441, 184]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_009_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1009, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_009_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1009, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_009_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1009, "bbox": [144, 162, 265, 266]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_009_splice.jpg", "label": "tampered", "kind": "splice", "base": 1009, "bbox": [16, 214, 111, 336]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_010_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1010, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_010_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1010, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_010_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1010, "bbox": [268, 368, 348, 460]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_010_splice.jpg", "label": "tampered", "kind": "splice", "base": 1010, "bbox": [38, 199, 143, 318]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_011_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1011, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_011_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1011, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_011_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1011, "bbox": [74, 303, 196, 373]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_011_splice.jpg", "label": "tampered", "kind": "splice", "base": 1011, "bbox": [98, 296, 204, 424]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_012_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1012, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_012_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1012, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_012_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1012, "bbox": [203, 104, 288, 194]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_012_splice.jpg", "label": "tampered", "kind": "splice", "base": 1012, "bbox": [202, 202, 283, 291]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_013_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1013, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_013_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1013, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_013_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1013, "bbox": [233, 16, 336, 105]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_013_splice.jpg", "label": "tampered", "kind": "splice", "base": 1013, "bbox": [347, 105, 439, 192]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_014_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1014, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_014_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1014, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_014_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1014, "bbox": [233, 231, 347, 350]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_014_splice.jpg", "label": "tampered", "kind": "splice", "base": 1014, "bbox": [58, 225, 151, 314]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_015_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1015, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_015_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1015, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_015_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1015, "bbox": [353, 196, 460, 276]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_015_splice.jpg", "label": "tampered", "kind": "splice", "base": 1015, "bbox": [345, 217, 441, 306]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_016_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1016, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_016_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1016, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_016_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1016, "bbox": [110, 404, 217, 475]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_016_splice.jpg", "label": "tampered", "kind": "splice", "base": 1016, "bbox": [189, 249, 290, 371]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_017_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1017, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_017_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1017, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_017_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1017, "bbox": [218, 171, 322, 289]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_017_splice.jpg", "label": "tampered", "kind": "splice", "base": 1017, "bbox": [269, 74, 357, 193]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_018_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1018, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_018_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1018, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_018_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1018, "bbox": [153, 176, 256, 296]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_018_splice.jpg", "label": "tampered", "kind": "splice", "base": 1018, "bbox": [101, 235, 223, 359]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_019_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1019, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_019_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1019, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_019_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1019, "bbox": [76, 274, 168, 358]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_019_splice.jpg", "label": "tampered", "kind": "splice", "base": 1019, "bbox": [185, 71, 300, 162]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_020_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1020, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_020_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1020, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_020_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1020, "bbox": [95, 261, 218, 372]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_020_splice.jpg", "label": "tampered", "kind": "splice", "base": 1020, "bbox": [368, 56, 478, 136]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_021_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1021, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_021_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1021, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_021_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1021, "bbox": [151, 128, 246, 250]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_021_splice.jpg", "label": "tampered", "kind": "splice", "base": 1021, "bbox": [12, 318, 98, 388]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_022_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1022, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_022_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1022, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_022_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1022, "bbox": [294, 318, 399, 437]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_022_splice.jpg", "label": "tampered", "kind": "splice", "base": 1022, "bbox": [7, 270, 119, 390]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_023_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1023, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_023_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1023, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_023_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1023, "bbox": [30, 49, 136, 177]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_023_splice.jpg", "label": "tampered", "kind": "splice", "base": 1023, "bbox": [128, 126, 199, 201]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_024_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1024, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_024_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1024, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_024_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1024, "bbox": [368, 1, 449, 90]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_024_splice.jpg", "label": "tampered", "kind": "splice", "base": 1024, "bbox": [373, 294, 451, 397]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_025_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1025, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_025_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1025, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_025_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1025, "bbox": [277, 145, 369, 232]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_025_splice.jpg", "label": "tampered", "kind": "splice", "base": 1025, "bbox": [256, 262, 369, 375]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_026_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1026, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_026_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1026, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_026_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1026, "bbox": [143, 294, 236, 383]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_026_splice.jpg", "label": "tampered", "kind": "splice", "base": 1026, "bbox": [293, 167, 419, 252]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_027_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1027, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_027_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1027, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_027_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1027, "bbox": [116, 242, 212, 331]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_027_splice.jpg", "label": "tampered", "kind": "splice", "base": 1027, "bbox": [101, 111, 191, 210]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_028_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1028, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_028_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1028, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_028_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1028, "bbox": [25, 316, 126, 438]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_028_splice.jpg", "label": "tampered", "kind": "splice", "base": 1028, "bbox": [380, 259, 455, 375]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_029_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1029, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_029_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1029, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_029_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1029, "bbox": [202, 298, 290, 417]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_029_splice.jpg", "label": "tampered", "kind": "splice", "base": 1029, "bbox": [262, 350, 370, 436]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_030_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1030, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_030_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1030, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_030_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1030, "bbox": [286, 177, 408, 301]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_030_splice.jpg", "label": "tampered", "kind": "splice", "base": 1030, "bbox": [107, 287, 194, 407]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_031_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1031, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_031_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1031, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_031_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1031, "bbox": [162, 226, 277, 317]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_031_splice.jpg", "label": "tampered", "kind": "splice", "base": 1031, "bbox": [197, 162, 284, 233]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_032_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1032, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_032_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1032, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_032_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1032, "bbox": [67, 235, 177, 315]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_032_splice.jpg", "label": "tampered", "kind": "splice", "base": 1032, "bbox": [263, 0, 360, 117]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_033_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1033, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_033_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1033, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_033_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1033, "bbox": [180, 324, 266, 394]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_033_splice.jpg", "label": "tampered", "kind": "splice", "base": 1033, "bbox": [338, 263, 448, 388]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_034_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1034, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_034_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1034, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_034_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1034, "bbox": [151, 196, 263, 316]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_034_splice.jpg", "label": "tampered", "kind": "splice", "base": 1034, "bbox": [159, 144, 279, 237]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_035_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1035, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_035_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1035, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_035_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1035, "bbox": [34, 170, 105, 245]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_035_splice.jpg", "label": "tampered", "kind": "splice", "base": 1035, "bbox": [175, 197, 304, 269]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_036_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1036, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_036_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1036, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_036_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1036, "bbox": [51, 101, 129, 204]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_036_splice.jpg", "label": "tampered", "kind": "splice", "base": 1036, "bbox": [299, 225, 407, 322]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_037_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1037, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_037_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1037, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_037_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1037, "bbox": [210, 36, 323, 149]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_037_splice.jpg", "label": "tampered", "kind": "splice", "base": 1037, "bbox": [125, 81, 200, 210]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_038_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1038, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_038_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1038, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_038_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1038, "bbox": [119, 207, 245, 292]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_038_splice.jpg", "label": "tampered", "kind": "splice", "base": 1038, "bbox": [208, 68, 336, 174]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_039_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1039, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_039_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1039, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_039_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1039, "bbox": [349, 295, 439, 394]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_039_splice.jpg", "label": "tampered", "kind": "splice", "base": 1039, "bbox": [111, 335, 232, 444]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_040_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1040, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_040_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1040, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_040_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1040, "bbox": [283, 184, 358, 300]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_040_splice.jpg", "label": "tampered", "kind": "splice", "base": 1040, "bbox": [280, 159, 375, 286]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_041_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1041, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_041_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1041, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_041_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1041, "bbox": [85, 60, 193, 146]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_041_splice.jpg", "label": "tampered", "kind": "splice", "base": 1041, "bbox": [51, 46, 169, 131]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_042_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1042, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_042_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1042, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_042_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1042, "bbox": [290, 120, 377, 240]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_042_splice.jpg", "label": "tampered", "kind": "splice", "base": 1042, "bbox": [146, 170, 271, 299]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_043_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1043, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_043_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1043, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_043_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1043, "bbox": [157, 64, 244, 135]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_043_splice.jpg", "label": "tampered", "kind": "splice", "base": 1043, "bbox": [126, 305, 253, 399]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_044_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1044, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_044_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1044, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_044_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1044, "bbox": [350, 133, 447, 250]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_044_splice.jpg", "label": "tampered", "kind": "splice", "base": 1044, "bbox": [169, 188, 241, 313]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_045_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1045, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_045_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1045, "bbox": null}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_045_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1045, "bbox": [77, 279, 187, 404]}
-{"path": "C:\\Users\\余星乐\\WorkBuddy\\2026-10-23-14-22-14\\raven\\data\\..\\artifacts\\dataset\\images\\train_045_splice.jpg", "label": "tampered", "kind": "splice", "base": 1045, "bbox": [233, 89, 307, 207]}
+{"path": "artifacts/dataset/images/train_000_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1000, "bbox": null}
+{"path": "artifacts/dataset/images/train_000_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1000, "bbox": null}
+{"path": "artifacts/dataset/images/train_000_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1000, "bbox": [176, 155, 263, 242]}
+{"path": "artifacts/dataset/images/train_000_splice.jpg", "label": "tampered", "kind": "splice", "base": 1000, "bbox": [34, 320, 119, 410]}
+{"path": "artifacts/dataset/images/train_001_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1001, "bbox": null}
+{"path": "artifacts/dataset/images/train_001_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1001, "bbox": null}
+{"path": "artifacts/dataset/images/train_001_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1001, "bbox": [296, 260, 410, 348]}
+{"path": "artifacts/dataset/images/train_001_splice.jpg", "label": "tampered", "kind": "splice", "base": 1001, "bbox": [143, 243, 246, 332]}
+{"path": "artifacts/dataset/images/train_002_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1002, "bbox": null}
+{"path": "artifacts/dataset/images/train_002_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1002, "bbox": null}
+{"path": "artifacts/dataset/images/train_002_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1002, "bbox": [270, 86, 348, 203]}
+{"path": "artifacts/dataset/images/train_002_splice.jpg", "label": "tampered", "kind": "splice", "base": 1002, "bbox": [178, 96, 292, 215]}
+{"path": "artifacts/dataset/images/train_003_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1003, "bbox": null}
+{"path": "artifacts/dataset/images/train_003_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1003, "bbox": null}
+{"path": "artifacts/dataset/images/train_003_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1003, "bbox": [320, 89, 425, 185]}
+{"path": "artifacts/dataset/images/train_003_splice.jpg", "label": "tampered", "kind": "splice", "base": 1003, "bbox": [353, 227, 460, 307]}
+{"path": "artifacts/dataset/images/train_004_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1004, "bbox": null}
+{"path": "artifacts/dataset/images/train_004_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1004, "bbox": null}
+{"path": "artifacts/dataset/images/train_004_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1004, "bbox": [239, 56, 342, 147]}
+{"path": "artifacts/dataset/images/train_004_splice.jpg", "label": "tampered", "kind": "splice", "base": 1004, "bbox": [315, 369, 422, 440]}
+{"path": "artifacts/dataset/images/train_005_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1005, "bbox": null}
+{"path": "artifacts/dataset/images/train_005_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1005, "bbox": null}
+{"path": "artifacts/dataset/images/train_005_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1005, "bbox": [113, 191, 221, 274]}
+{"path": "artifacts/dataset/images/train_005_splice.jpg", "label": "tampered", "kind": "splice", "base": 1005, "bbox": [53, 302, 157, 420]}
+{"path": "artifacts/dataset/images/train_006_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1006, "bbox": null}
+{"path": "artifacts/dataset/images/train_006_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1006, "bbox": null}
+{"path": "artifacts/dataset/images/train_006_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1006, "bbox": [246, 147, 375, 272]}
+{"path": "artifacts/dataset/images/train_006_splice.jpg", "label": "tampered", "kind": "splice", "base": 1006, "bbox": [296, 132, 399, 252]}
+{"path": "artifacts/dataset/images/train_007_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1007, "bbox": null}
+{"path": "artifacts/dataset/images/train_007_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1007, "bbox": null}
+{"path": "artifacts/dataset/images/train_007_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1007, "bbox": [247, 253, 370, 358]}
+{"path": "artifacts/dataset/images/train_007_splice.jpg", "label": "tampered", "kind": "splice", "base": 1007, "bbox": [279, 391, 371, 475]}
+{"path": "artifacts/dataset/images/train_008_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1008, "bbox": null}
+{"path": "artifacts/dataset/images/train_008_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1008, "bbox": null}
+{"path": "artifacts/dataset/images/train_008_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1008, "bbox": [50, 279, 140, 362]}
+{"path": "artifacts/dataset/images/train_008_splice.jpg", "label": "tampered", "kind": "splice", "base": 1008, "bbox": [318, 73, 441, 184]}
+{"path": "artifacts/dataset/images/train_009_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1009, "bbox": null}
+{"path": "artifacts/dataset/images/train_009_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1009, "bbox": null}
+{"path": "artifacts/dataset/images/train_009_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1009, "bbox": [144, 162, 265, 266]}
+{"path": "artifacts/dataset/images/train_009_splice.jpg", "label": "tampered", "kind": "splice", "base": 1009, "bbox": [16, 214, 111, 336]}
+{"path": "artifacts/dataset/images/train_010_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1010, "bbox": null}
+{"path": "artifacts/dataset/images/train_010_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1010, "bbox": null}
+{"path": "artifacts/dataset/images/train_010_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1010, "bbox": [268, 368, 348, 460]}
+{"path": "artifacts/dataset/images/train_010_splice.jpg", "label": "tampered", "kind": "splice", "base": 1010, "bbox": [38, 199, 143, 318]}
+{"path": "artifacts/dataset/images/train_011_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1011, "bbox": null}
+{"path": "artifacts/dataset/images/train_011_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1011, "bbox": null}
+{"path": "artifacts/dataset/images/train_011_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1011, "bbox": [74, 303, 196, 373]}
+{"path": "artifacts/dataset/images/train_011_splice.jpg", "label": "tampered", "kind": "splice", "base": 1011, "bbox": [98, 296, 204, 424]}
+{"path": "artifacts/dataset/images/train_012_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1012, "bbox": null}
+{"path": "artifacts/dataset/images/train_012_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1012, "bbox": null}
+{"path": "artifacts/dataset/images/train_012_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1012, "bbox": [203, 104, 288, 194]}
+{"path": "artifacts/dataset/images/train_012_splice.jpg", "label": "tampered", "kind": "splice", "base": 1012, "bbox": [202, 202, 283, 291]}
+{"path": "artifacts/dataset/images/train_013_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1013, "bbox": null}
+{"path": "artifacts/dataset/images/train_013_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1013, "bbox": null}
+{"path": "artifacts/dataset/images/train_013_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1013, "bbox": [233, 16, 336, 105]}
+{"path": "artifacts/dataset/images/train_013_splice.jpg", "label": "tampered", "kind": "splice", "base": 1013, "bbox": [347, 105, 439, 192]}
+{"path": "artifacts/dataset/images/train_014_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1014, "bbox": null}
+{"path": "artifacts/dataset/images/train_014_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1014, "bbox": null}
+{"path": "artifacts/dataset/images/train_014_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1014, "bbox": [233, 231, 347, 350]}
+{"path": "artifacts/dataset/images/train_014_splice.jpg", "label": "tampered", "kind": "splice", "base": 1014, "bbox": [58, 225, 151, 314]}
+{"path": "artifacts/dataset/images/train_015_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1015, "bbox": null}
+{"path": "artifacts/dataset/images/train_015_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1015, "bbox": null}
+{"path": "artifacts/dataset/images/train_015_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1015, "bbox": [353, 196, 460, 276]}
+{"path": "artifacts/dataset/images/train_015_splice.jpg", "label": "tampered", "kind": "splice", "base": 1015, "bbox": [345, 217, 441, 306]}
+{"path": "artifacts/dataset/images/train_016_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1016, "bbox": null}
+{"path": "artifacts/dataset/images/train_016_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1016, "bbox": null}
+{"path": "artifacts/dataset/images/train_016_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1016, "bbox": [110, 404, 217, 475]}
+{"path": "artifacts/dataset/images/train_016_splice.jpg", "label": "tampered", "kind": "splice", "base": 1016, "bbox": [189, 249, 290, 371]}
+{"path": "artifacts/dataset/images/train_017_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1017, "bbox": null}
+{"path": "artifacts/dataset/images/train_017_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1017, "bbox": null}
+{"path": "artifacts/dataset/images/train_017_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1017, "bbox": [218, 171, 322, 289]}
+{"path": "artifacts/dataset/images/train_017_splice.jpg", "label": "tampered", "kind": "splice", "base": 1017, "bbox": [269, 74, 357, 193]}
+{"path": "artifacts/dataset/images/train_018_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1018, "bbox": null}
+{"path": "artifacts/dataset/images/train_018_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1018, "bbox": null}
+{"path": "artifacts/dataset/images/train_018_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1018, "bbox": [153, 176, 256, 296]}
+{"path": "artifacts/dataset/images/train_018_splice.jpg", "label": "tampered", "kind": "splice", "base": 1018, "bbox": [101, 235, 223, 359]}
+{"path": "artifacts/dataset/images/train_019_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1019, "bbox": null}
+{"path": "artifacts/dataset/images/train_019_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1019, "bbox": null}
+{"path": "artifacts/dataset/images/train_019_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1019, "bbox": [76, 274, 168, 358]}
+{"path": "artifacts/dataset/images/train_019_splice.jpg", "label": "tampered", "kind": "splice", "base": 1019, "bbox": [185, 71, 300, 162]}
+{"path": "artifacts/dataset/images/train_020_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1020, "bbox": null}
+{"path": "artifacts/dataset/images/train_020_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1020, "bbox": null}
+{"path": "artifacts/dataset/images/train_020_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1020, "bbox": [95, 261, 218, 372]}
+{"path": "artifacts/dataset/images/train_020_splice.jpg", "label": "tampered", "kind": "splice", "base": 1020, "bbox": [368, 56, 478, 136]}
+{"path": "artifacts/dataset/images/train_021_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1021, "bbox": null}
+{"path": "artifacts/dataset/images/train_021_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1021, "bbox": null}
+{"path": "artifacts/dataset/images/train_021_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1021, "bbox": [151, 128, 246, 250]}
+{"path": "artifacts/dataset/images/train_021_splice.jpg", "label": "tampered", "kind": "splice", "base": 1021, "bbox": [12, 318, 98, 388]}
+{"path": "artifacts/dataset/images/train_022_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1022, "bbox": null}
+{"path": "artifacts/dataset/images/train_022_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1022, "bbox": null}
+{"path": "artifacts/dataset/images/train_022_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1022, "bbox": [294, 318, 399, 437]}
+{"path": "artifacts/dataset/images/train_022_splice.jpg", "label": "tampered", "kind": "splice", "base": 1022, "bbox": [7, 270, 119, 390]}
+{"path": "artifacts/dataset/images/train_023_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1023, "bbox": null}
+{"path": "artifacts/dataset/images/train_023_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1023, "bbox": null}
+{"path": "artifacts/dataset/images/train_023_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1023, "bbox": [30, 49, 136, 177]}
+{"path": "artifacts/dataset/images/train_023_splice.jpg", "label": "tampered", "kind": "splice", "base": 1023, "bbox": [128, 126, 199, 201]}
+{"path": "artifacts/dataset/images/train_024_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1024, "bbox": null}
+{"path": "artifacts/dataset/images/train_024_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1024, "bbox": null}
+{"path": "artifacts/dataset/images/train_024_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1024, "bbox": [368, 1, 449, 90]}
+{"path": "artifacts/dataset/images/train_024_splice.jpg", "label": "tampered", "kind": "splice", "base": 1024, "bbox": [373, 294, 451, 397]}
+{"path": "artifacts/dataset/images/train_025_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1025, "bbox": null}
+{"path": "artifacts/dataset/images/train_025_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1025, "bbox": null}
+{"path": "artifacts/dataset/images/train_025_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1025, "bbox": [277, 145, 369, 232]}
+{"path": "artifacts/dataset/images/train_025_splice.jpg", "label": "tampered", "kind": "splice", "base": 1025, "bbox": [256, 262, 369, 375]}
+{"path": "artifacts/dataset/images/train_026_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1026, "bbox": null}
+{"path": "artifacts/dataset/images/train_026_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1026, "bbox": null}
+{"path": "artifacts/dataset/images/train_026_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1026, "bbox": [143, 294, 236, 383]}
+{"path": "artifacts/dataset/images/train_026_splice.jpg", "label": "tampered", "kind": "splice", "base": 1026, "bbox": [293, 167, 419, 252]}
+{"path": "artifacts/dataset/images/train_027_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1027, "bbox": null}
+{"path": "artifacts/dataset/images/train_027_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1027, "bbox": null}
+{"path": "artifacts/dataset/images/train_027_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1027, "bbox": [116, 242, 212, 331]}
+{"path": "artifacts/dataset/images/train_027_splice.jpg", "label": "tampered", "kind": "splice", "base": 1027, "bbox": [101, 111, 191, 210]}
+{"path": "artifacts/dataset/images/train_028_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1028, "bbox": null}
+{"path": "artifacts/dataset/images/train_028_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1028, "bbox": null}
+{"path": "artifacts/dataset/images/train_028_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1028, "bbox": [25, 316, 126, 438]}
+{"path": "artifacts/dataset/images/train_028_splice.jpg", "label": "tampered", "kind": "splice", "base": 1028, "bbox": [380, 259, 455, 375]}
+{"path": "artifacts/dataset/images/train_029_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1029, "bbox": null}
+{"path": "artifacts/dataset/images/train_029_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1029, "bbox": null}
+{"path": "artifacts/dataset/images/train_029_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1029, "bbox": [202, 298, 290, 417]}
+{"path": "artifacts/dataset/images/train_029_splice.jpg", "label": "tampered", "kind": "splice", "base": 1029, "bbox": [262, 350, 370, 436]}
+{"path": "artifacts/dataset/images/train_030_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1030, "bbox": null}
+{"path": "artifacts/dataset/images/train_030_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1030, "bbox": null}
+{"path": "artifacts/dataset/images/train_030_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1030, "bbox": [286, 177, 408, 301]}
+{"path": "artifacts/dataset/images/train_030_splice.jpg", "label": "tampered", "kind": "splice", "base": 1030, "bbox": [107, 287, 194, 407]}
+{"path": "artifacts/dataset/images/train_031_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1031, "bbox": null}
+{"path": "artifacts/dataset/images/train_031_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1031, "bbox": null}
+{"path": "artifacts/dataset/images/train_031_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1031, "bbox": [162, 226, 277, 317]}
+{"path": "artifacts/dataset/images/train_031_splice.jpg", "label": "tampered", "kind": "splice", "base": 1031, "bbox": [197, 162, 284, 233]}
+{"path": "artifacts/dataset/images/train_032_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1032, "bbox": null}
+{"path": "artifacts/dataset/images/train_032_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1032, "bbox": null}
+{"path": "artifacts/dataset/images/train_032_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1032, "bbox": [67, 235, 177, 315]}
+{"path": "artifacts/dataset/images/train_032_splice.jpg", "label": "tampered", "kind": "splice", "base": 1032, "bbox": [263, 0, 360, 117]}
+{"path": "artifacts/dataset/images/train_033_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1033, "bbox": null}
+{"path": "artifacts/dataset/images/train_033_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1033, "bbox": null}
+{"path": "artifacts/dataset/images/train_033_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1033, "bbox": [180, 324, 266, 394]}
+{"path": "artifacts/dataset/images/train_033_splice.jpg", "label": "tampered", "kind": "splice", "base": 1033, "bbox": [338, 263, 448, 388]}
+{"path": "artifacts/dataset/images/train_034_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1034, "bbox": null}
+{"path": "artifacts/dataset/images/train_034_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1034, "bbox": null}
+{"path": "artifacts/dataset/images/train_034_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1034, "bbox": [151, 196, 263, 316]}
+{"path": "artifacts/dataset/images/train_034_splice.jpg", "label": "tampered", "kind": "splice", "base": 1034, "bbox": [159, 144, 279, 237]}
+{"path": "artifacts/dataset/images/train_035_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1035, "bbox": null}
+{"path": "artifacts/dataset/images/train_035_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1035, "bbox": null}
+{"path": "artifacts/dataset/images/train_035_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1035, "bbox": [34, 170, 105, 245]}
+{"path": "artifacts/dataset/images/train_035_splice.jpg", "label": "tampered", "kind": "splice", "base": 1035, "bbox": [175, 197, 304, 269]}
+{"path": "artifacts/dataset/images/train_036_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1036, "bbox": null}
+{"path": "artifacts/dataset/images/train_036_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1036, "bbox": null}
+{"path": "artifacts/dataset/images/train_036_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1036, "bbox": [51, 101, 129, 204]}
+{"path": "artifacts/dataset/images/train_036_splice.jpg", "label": "tampered", "kind": "splice", "base": 1036, "bbox": [299, 225, 407, 322]}
+{"path": "artifacts/dataset/images/train_037_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1037, "bbox": null}
+{"path": "artifacts/dataset/images/train_037_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1037, "bbox": null}
+{"path": "artifacts/dataset/images/train_037_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1037, "bbox": [210, 36, 323, 149]}
+{"path": "artifacts/dataset/images/train_037_splice.jpg", "label": "tampered", "kind": "splice", "base": 1037, "bbox": [125, 81, 200, 210]}
+{"path": "artifacts/dataset/images/train_038_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1038, "bbox": null}
+{"path": "artifacts/dataset/images/train_038_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1038, "bbox": null}
+{"path": "artifacts/dataset/images/train_038_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1038, "bbox": [119, 207, 245, 292]}
+{"path": "artifacts/dataset/images/train_038_splice.jpg", "label": "tampered", "kind": "splice", "base": 1038, "bbox": [208, 68, 336, 174]}
+{"path": "artifacts/dataset/images/train_039_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1039, "bbox": null}
+{"path": "artifacts/dataset/images/train_039_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1039, "bbox": null}
+{"path": "artifacts/dataset/images/train_039_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1039, "bbox": [349, 295, 439, 394]}
+{"path": "artifacts/dataset/images/train_039_splice.jpg", "label": "tampered", "kind": "splice", "base": 1039, "bbox": [111, 335, 232, 444]}
+{"path": "artifacts/dataset/images/train_040_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1040, "bbox": null}
+{"path": "artifacts/dataset/images/train_040_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1040, "bbox": null}
+{"path": "artifacts/dataset/images/train_040_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1040, "bbox": [283, 184, 358, 300]}
+{"path": "artifacts/dataset/images/train_040_splice.jpg", "label": "tampered", "kind": "splice", "base": 1040, "bbox": [280, 159, 375, 286]}
+{"path": "artifacts/dataset/images/train_041_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1041, "bbox": null}
+{"path": "artifacts/dataset/images/train_041_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1041, "bbox": null}
+{"path": "artifacts/dataset/images/train_041_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1041, "bbox": [85, 60, 193, 146]}
+{"path": "artifacts/dataset/images/train_041_splice.jpg", "label": "tampered", "kind": "splice", "base": 1041, "bbox": [51, 46, 169, 131]}
+{"path": "artifacts/dataset/images/train_042_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1042, "bbox": null}
+{"path": "artifacts/dataset/images/train_042_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1042, "bbox": null}
+{"path": "artifacts/dataset/images/train_042_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1042, "bbox": [290, 120, 377, 240]}
+{"path": "artifacts/dataset/images/train_042_splice.jpg", "label": "tampered", "kind": "splice", "base": 1042, "bbox": [146, 170, 271, 299]}
+{"path": "artifacts/dataset/images/train_043_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1043, "bbox": null}
+{"path": "artifacts/dataset/images/train_043_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1043, "bbox": null}
+{"path": "artifacts/dataset/images/train_043_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1043, "bbox": [157, 64, 244, 135]}
+{"path": "artifacts/dataset/images/train_043_splice.jpg", "label": "tampered", "kind": "splice", "base": 1043, "bbox": [126, 305, 253, 399]}
+{"path": "artifacts/dataset/images/train_044_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1044, "bbox": null}
+{"path": "artifacts/dataset/images/train_044_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1044, "bbox": null}
+{"path": "artifacts/dataset/images/train_044_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1044, "bbox": [350, 133, 447, 250]}
+{"path": "artifacts/dataset/images/train_044_splice.jpg", "label": "tampered", "kind": "splice", "base": 1044, "bbox": [169, 188, 241, 313]}
+{"path": "artifacts/dataset/images/train_045_pristine.jpg", "label": "clean", "kind": "pristine", "base": 1045, "bbox": null}
+{"path": "artifacts/dataset/images/train_045_resaved.jpg", "label": "clean", "kind": "clean_resaved", "base": 1045, "bbox": null}
+{"path": "artifacts/dataset/images/train_045_copy_move.jpg", "label": "tampered", "kind": "copy_move", "base": 1045, "bbox": [77, 279, 187, 404]}
+{"path": "artifacts/dataset/images/train_045_splice.jpg", "label": "tampered", "kind": "splice", "base": 1045, "bbox": [233, 89, 307, 207]}

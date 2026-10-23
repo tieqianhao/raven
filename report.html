@@ -46,10 +46,10 @@ footer{margin-top:40px;padding-top:14px;border-top:1px solid var(--bd);color:var
 <body><div class="wrap">
 
 <h1>Raven · 游戏与二次元社区内容风控引擎</h1>
-<div class="lead">评测报告 ｜ 生成于 2026-10-23 20:12:22 ｜ 全部数字由 <span class="mono">eval/run_eval.py</span> 在本机跑出，
+<div class="lead">评测报告 ｜ 生成于 2026-10-23 20:16:00 ｜ 全部数字由 <span class="mono">eval/run_eval.py</span> 在本机跑出，
 测试集不参与任何调参</div>
 
-<div class="strip"><div class="stat"><b>0.930</b><span>对抗集 F1</span><em>留出模板 + 全部词条变形</em></div><div class="stat"><b>0.943</b><span>干净集 F1</span><em>未见过的模板</em></div><div class="stat"><b>1.000</b><span>自动拦截档精确率</span><em>占违规总量 83.9%</em></div><div class="stat"><b>0.984</b><span>对抗集 AUC</span><em>排序能力，与阈值无关</em></div><div class="stat"><b>0.53 ms</b><span>单条推理</span><em>纯 CPU，无 GPU</em></div><div class="stat"><b>0.951</b><span>账号级 F1</span><em>163 个账号聚合</em></div></div>
+<div class="strip"><div class="stat"><b>0.930</b><span>对抗集 F1</span><em>留出模板 + 全部词条变形</em></div><div class="stat"><b>0.943</b><span>干净集 F1</span><em>未见过的模板</em></div><div class="stat"><b>1.000</b><span>自动拦截档精确率</span><em>占违规总量 83.9%</em></div><div class="stat"><b>0.984</b><span>对抗集 AUC</span><em>排序能力，与阈值无关</em></div><div class="stat"><b>0.35 ms</b><span>单条推理</span><em>纯 CPU，无 GPU</em></div><div class="stat"><b>0.951</b><span>账号级 F1</span><em>163 个账号聚合</em></div></div>
 
 <h2>一、先说清楚这份报告的可信度从哪来</h2>
 <div class="panel">
@@ -147,7 +147,7 @@ AUC 依然 0.99，但按 0.82 分档时"自动拦截"一条都进不去——<b>
 <tr><td>F1（阈值 0.5）</td><td class="num">0.8632</td></tr>
 <tr><td>局部定位命中率（Top-10% 块落在真实篡改框内的比例）</td><td class="num">0.3042</td></tr>
 <tr><td>定位命中率 ≥ 0.3 的图片占比</td><td class="num">0.5192</td></tr>
-<tr><td>单图特征提取耗时</td><td class="num">94.2 ms</td></tr>
+<tr><td>单图特征提取耗时</td><td class="num">97.3 ms</td></tr>
 <tr><td>最终特征集（训练集 5 折 CV 选出）</td><td class="num">ELA + 噪声 + 辅助（全部）</td></tr>
 </tbody></table>
 
@@ -216,7 +216,7 @@ python tools/build_demo.py &nbsp;&nbsp;&nbsp;# 生成可交互 demo/index.html<b
 python tools/parity_test.py &nbsp;&nbsp;# 前后端一致性对拍<br>
 python raven/report.py &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# 生成本报告
 </div>
-<div class="note">模型训练耗时：文本 6.69s（8192 维，660 条）／图像 34.09s。
+<div class="note">模型训练耗时：文本 3.87s（8192 维，660 条）／图像 34.83s。
 全程 CPU，无 GPU、无外部 API、无网络依赖。</div>
 
 <footer>Raven · 评测报告 · 由 <span class="mono">raven/report.py</span> 自动生成，数据源 artifacts/results/metrics.json，
