@@ -11,6 +11,7 @@
     artifacts/models/engine.json     模型权重 + 词表（demo 直接吃这个）
     report.html                      评测报告
     demo/index.html                  可交互演示
+    artifacts/sim/dashboard.html     模拟环境作战室（60 分钟流量重放）
 
 关于 --skip-gen：图像数据集是 Pillow 画出来的 JPEG。不同平台的 libjpeg
 编码参数不完全一致，重新造图会得到像素级不同的输入，进而让图像侧指标漂移
@@ -35,6 +36,7 @@ STEPS = [
     {"name": "前后端一致性对拍", "cmd": ["tools/parity_test.py"], "gen": False},
     {"name": "生成评测报告", "cmd": ["raven/report.py"], "gen": False},
     {"name": "demo 冒烟测试", "cmd": ["tools/dom_smoke_test.js"], "gen": False, "runner": "node"},
+    {"name": "模拟环境演练", "cmd": ["sim/run_sim.py"], "gen": False},
 ]
 
 

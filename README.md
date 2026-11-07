@@ -46,7 +46,7 @@ python run_all.py          # 约 60~90 秒，产出全部报告与演示页面
 ## 快速开始
 
 ```bash
-# 全链路（造数 → 训练 → 评测 → 报告 → demo → 对拍），约 60~90 秒
+# 全链路（造数 → 训练 → 评测 → 报告 → demo → 对拍 → 模拟演练），约 60~90 秒
 python run_all.py
 
 # 指标回归闸门：31 项质量指标是否与基线一致（CI 里也跑这个）
@@ -54,6 +54,9 @@ python tools/check_metrics.py
 
 # 只跑 demo 冒烟测试（验证页面脚本不报错）
 node tools/dom_smoke_test.js
+
+# 模拟环境：把三套测试集排成 60 分钟跑一遍，出看板（run_all 里已含这一步）
+python sim/run_sim.py
 
 # 单条判定
 python -m raven.cli "出原神外挂，自瞄透视，稳定不封，加微信abc123"
@@ -128,6 +131,11 @@ resume/
   build_docx.py       解析 HTML 生成 docx（毫米级尺寸 + 字宽测量保证单页）
   verify.py           产物体检：单页 / A4 / PDF 与 DOCX 内容一致 / 孤行检测
   ↳ resume.html 与 pdf/docx/png 未入库（含个人联系方式，已 gitignore）
+sim/
+  scenario.py         把三套测试集编排成 60 分钟时间轴
+  run_sim.py          跑演练：处置、审核队列、账号聚合、与评测对账
+  build_dashboard.py  生成单文件看板（可播放重放）
+  README.md           场景设定、结果、与评测的口径差异
 ```
 
 ---
@@ -189,7 +197,7 @@ CI 里跑它——README 和报告里的每个数字都被这道闸门看着。
 "0.4~0.5 ms 取决于机器"，而不是一个精确到小数点后三位的数。
 
 另外做过一次**干净克隆验证**：把仓库 `git clone` 到一个空目录，不装任何额外东西，
-直接 `python run_all.py` → 55.9 秒跑完七步，`check_metrics.py` 31 项全部一致。
+直接 `python run_all.py` → 55.9 秒跑完全链路，`check_metrics.py` 31 项全部一致。
 也就是说上面这些数字不是"在我这台机器上凑出来的"。
 
 **但图像侧没能跨平台复现。** 同一个 commit 在 GitHub Actions 的 Ubuntu 上跑，

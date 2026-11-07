@@ -34,7 +34,7 @@ python run_all.py && python tools/check_metrics.py && node tools/dom_smoke_test.
 
 三件事都得过：
 
-1. **全链路能跑通**——七步没有中途失败。
+1. **全链路能跑通**——`run_all.py` 的每一步都没有中途失败。
 2. **31 项质量指标在容差内**——容差默认 1e-3。
 3. **demo 页面脚本不报错**——`dom_smoke_test.js` 用 DOM 桩跑一遍页面脚本。
 

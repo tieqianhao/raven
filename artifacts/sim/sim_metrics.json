@@ -1,0 +1,294 @@
+{
+ "scenario": {
+  "title": "某二次元手游社区 · 内容风控作战室",
+  "t0": "21:00:00",
+  "total_min": 60,
+  "waves": [
+   {
+    "key": "adv",
+    "name": "第一波 · 混合变形",
+    "start": 6,
+    "end": 28,
+    "note": "繁体 / 全角 / 零宽字符 / emoji 填充 / 重复字符叠用，单条常叠加多种手法"
+   },
+   {
+    "key": "pervasive",
+    "name": "第二波 · 逐字符分隔",
+    "start": 30,
+    "end": 46,
+    "note": "每字之间插空格或 emoji，关键词规则完全失效"
+   },
+   {
+    "key": "holdout",
+    "name": "第三波 · 未登录谐音",
+    "start": 48,
+    "end": 58,
+    "note": "换用训练集里没出现过的谐音写法（外桂 / 辅住 / 代煉）"
+   }
+  ],
+  "baseline": {
+   "key": "clean",
+   "name": "基线流量",
+   "note": "未变形的日常发帖，混有直白广告与举报语境"
+  }
+ },
+ "engine": {
+  "threshold": 0.38,
+  "tiers": {
+   "block": 0.82,
+   "review": 0.68,
+   "watch": 0.4
+  },
+  "source": "artifacts/models/engine.json"
+ },
+ "assumptions": {
+  "review_capacity_per_min": 12.0,
+  "sample_rate": 0.1
+ },
+ "n": 1080,
+ "judged_but_allowed": 7,
+ "waves": [
+  {
+   "key": "clean",
+   "name": "基线流量",
+   "n": 270,
+   "risk": 180,
+   "benign": 90,
+   "tp": 174,
+   "fp": 15,
+   "fn": 6,
+   "tn": 75,
+   "precision": 0.9206,
+   "recall": 0.9667,
+   "f1": 0.9431,
+   "latency_p50": 0.191,
+   "latency_p95": 0.328
+  },
+  {
+   "key": "adv",
+   "name": "第一波 · 混合变形",
+   "n": 270,
+   "risk": 180,
+   "benign": 90,
+   "tp": 172,
+   "fp": 18,
+   "fn": 8,
+   "tn": 72,
+   "precision": 0.9053,
+   "recall": 0.9556,
+   "f1": 0.9297,
+   "latency_p50": 0.196,
+   "latency_p95": 0.375
+  },
+  {
+   "key": "pervasive",
+   "name": "第二波 · 逐字符分隔",
+   "n": 270,
+   "risk": 180,
+   "benign": 90,
+   "tp": 173,
+   "fp": 11,
+   "fn": 7,
+   "tn": 79,
+   "precision": 0.9402,
+   "recall": 0.9611,
+   "f1": 0.9505,
+   "latency_p50": 0.219,
+   "latency_p95": 0.374
+  },
+  {
+   "key": "holdout",
+   "name": "第三波 · 未登录谐音",
+   "n": 270,
+   "risk": 180,
+   "benign": 90,
+   "tp": 165,
+   "fp": 4,
+   "fn": 15,
+   "tn": 86,
+   "precision": 0.9763,
+   "recall": 0.9167,
+   "f1": 0.9456,
+   "latency_p50": 0.195,
+   "latency_p95": 0.327
+  }
+ ],
+ "tiers": [
+  {
+   "tier": "block",
+   "name": "拦截",
+   "n": 598,
+   "true_risk": 598,
+   "precision": 1.0,
+   "share_of_risk": 0.8306,
+   "threshold": 0.82
+  },
+  {
+   "tier": "review",
+   "name": "限流 + 人工复核",
+   "n": 58,
+   "true_risk": 49,
+   "precision": 0.8448,
+   "share_of_risk": 0.0681,
+   "threshold": 0.68
+  },
+  {
+   "tier": "watch",
+   "name": "观察（抽检）",
+   "n": 69,
+   "true_risk": 35,
+   "precision": 0.5072,
+   "share_of_risk": 0.0486,
+   "threshold": 0.4
+  },
+  {
+   "tier": "allow",
+   "name": "放行",
+   "n": 355,
+   "true_risk": 38,
+   "precision": 0.107,
+   "share_of_risk": 0.0528,
+   "threshold": null
+  }
+ ],
+ "ops": {
+  "review_arrivals": 66,
+  "from_review": 58,
+  "from_watch_sampling": 8,
+  "review_rate": 0.0611,
+  "peak_backlog": 2,
+  "avg_wait_min": 0.012,
+  "p95_wait_min": 0.08,
+  "max_wait_min": 0.127,
+  "capacity": 12.0,
+  "utilization": 0.092,
+  "sample_rate": 0.1
+ },
+ "accounts": {
+  "accounts": 163,
+  "multi_post_accounts": 155,
+  "tp": 159,
+  "fp": 1,
+  "fn": 0,
+  "tn": 3,
+  "precision": 0.9938,
+  "recall": 1.0,
+  "f1": 0.9969,
+  "missed_posts": 36,
+  "missed_from_single_post_account": 0,
+  "rescued_by_account": 36,
+  "rescued_rate": 1.0,
+  "top": [
+   {
+    "acct": "u0094",
+    "posts": 15,
+    "max_p": 0.9998,
+    "hits": 10,
+    "risk_posts": 10,
+    "policy": "封禁"
+   },
+   {
+    "acct": "u0089",
+    "posts": 11,
+    "max_p": 0.9995,
+    "hits": 10,
+    "risk_posts": 10,
+    "policy": "封禁"
+   },
+   {
+    "acct": "u0099",
+    "posts": 12,
+    "max_p": 1.0,
+    "hits": 9,
+    "risk_posts": 9,
+    "policy": "封禁"
+   },
+   {
+    "acct": "u0034",
+    "posts": 12,
+    "max_p": 0.9999,
+    "hits": 9,
+    "risk_posts": 9,
+    "policy": "封禁"
+   },
+   {
+    "acct": "u0040",
+    "posts": 12,
+    "max_p": 0.9999,
+    "hits": 9,
+    "risk_posts": 10,
+    "policy": "封禁"
+   },
+   {
+    "acct": "u0021",
+    "posts": 14,
+    "max_p": 1.0,
+    "hits": 8,
+    "risk_posts": 9,
+    "policy": "封禁"
+   },
+   {
+    "acct": "u0042",
+    "posts": 12,
+    "max_p": 1.0,
+    "hits": 8,
+    "risk_posts": 8,
+    "policy": "封禁"
+   },
+   {
+    "acct": "u0049",
+    "posts": 12,
+    "max_p": 1.0,
+    "hits": 8,
+    "risk_posts": 8,
+    "policy": "封禁"
+   }
+  ],
+  "policy_count": {
+   "封禁": 156,
+   "禁言 7 天": 0,
+   "观察": 4,
+   "正常": 3
+  }
+ },
+ "latency": {
+  "p50": 0.199,
+  "p95": 0.348,
+  "mean": 0.214,
+  "cold_first": 0.637,
+  "total_s": 0.24,
+  "note": "预热 20 条后统计；评测是训练后立刻采 120 条（含冷启动），口径不同不可直接比"
+ },
+ "reconcile": {
+  "ok": true,
+  "rows": [
+   {
+    "wave": "第一波 · 混合变形",
+    "key": "adv",
+    "sim_f1": 0.9297,
+    "eval_f1": 0.9297,
+    "diff": 0.0
+   },
+   {
+    "wave": "第二波 · 逐字符分隔",
+    "key": "pervasive",
+    "sim_f1": 0.9505,
+    "eval_f1": 0.9505,
+    "diff": 0.0
+   },
+   {
+    "wave": "第三波 · 未登录谐音",
+    "key": "holdout",
+    "sim_f1": 0.9456,
+    "eval_f1": 0.9456,
+    "diff": 0.0
+   }
+  ],
+  "baseline_config": "⑤ 混合模型（n-gram+规则特征）",
+  "eval_latency_ms": {
+   "mean": 0.354,
+   "p95": 0.49
+  },
+  "note": ""
+ }
+}

@@ -20,6 +20,9 @@ yarn-error.log*
 # 对拍脚本跑完会删，异常中断时会残留
 artifacts/parity_in.json
 artifacts/parity_out.json
+# 模拟环境的逐条事件流 470KB，由 sim/run_sim.py 随时可重建；
+# 看板 dashboard.html 与指标 sim_metrics.json 已把内容内嵌/汇总，不需要它
+artifacts/sim/events.jsonl
 *.tmp
 *.log
 

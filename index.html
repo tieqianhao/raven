@@ -143,6 +143,10 @@
       <svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 13V8M6 13V4M10 13V6M14 13V2"/></svg>
       看评测报告
     </a>
+    <a class="btn btn-ghost" href="artifacts/sim/dashboard.html">
+      <svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="8" cy="8" r="6"/><path d="M8 4.5V8l2.5 1.6"/></svg>
+      跑一遍在线演练
+    </a>
     <a class="btn btn-ghost" href="https://github.com/tieqianhao/raven">
       <svg width="15" height="15" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
       源码
@@ -181,6 +185,27 @@
       <p class="d">
         第一批模型 AUC 0.99，但输出全挤在 0.45~0.65，分档阈值形同虚设。
         <b>只看 AUC 的评测永远发现不了这个问题</b>——这也是后来加分档表的原因。
+      </p>
+    </div>
+  </div>
+
+  <h2>模拟环境 · 把测试集跑成 60 分钟</h2>
+  <div class="cards">
+    <div class="card">
+      <div class="t">静态评测回答不了「上线后会不会堵」</div>
+      <p class="d">
+        演练把三套变形测试集排成一条 60 分钟时间轴：先混合变形，再逐字符分隔，
+        最后换成未登录谐音，中间一直夹着正常发帖。每条都过<b>同一个引擎、同一个阈值</b>，
+        处置结果边跑边累计，跑完自动与评测对账。
+      </p>
+      <p class="d" style="margin-top:9px">
+        两个和模型无关的结论：转人工只占 6.1%，<b>一个审核工位就消化得完，瓶颈不在人</b>；
+        但单条漏检全部来自发帖 ≥2 条的账号，账号聚合必然兜住——
+        说明兜底能力依赖账号重复度，<b>不能当独立能力宣传</b>。
+      </p>
+      <p class="d" style="margin-top:9px">
+        <a href="artifacts/sim/dashboard.html" style="color:#3b4cca;text-decoration:none;border-bottom:1px solid #c9cfff">
+          打开作战室看板 →</a>
       </p>
     </div>
   </div>
