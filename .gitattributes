@@ -10,7 +10,12 @@
 # jsonl 是文本，但行极长，diff 意义不大；仍然按文本存以便 review
 *.jsonl text eol=lf
 
-# 生成物标记，GitHub 语言统计里不计入
-report.html linguist-generated=false
-demo/index.html linguist-generated=false
-demo/raven-lite.js linguist-vendored=false
+# ---- GitHub 语言统计 ----
+# 生成物与数据集不计入语言占比，否则仓库主语言会被标成 HTML / JSON，而不是 Python。
+#   1) artifacts/ 是运行产物：468KB 的 sim/dashboard.html、440KB 的 jsonl 数据集、
+#      60KB 的 engine.json 与指标文件，全部由 run_all.py 生成；
+#   2) index.html / report.html / demo/index.html 是自动生成的展示与评测报告页。
+# 排除后剩余约 200KB Python、12KB JS，仓库主语言会正确显示为 Python。
+# 注：linguist-detectable=false 才是“不计入统计”；写成 linguist-generated=false 是反的。
+artifacts/**  linguist-detectable=false
+*.html        linguist-detectable=false
