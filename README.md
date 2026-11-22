@@ -123,7 +123,6 @@ docs/
   ARCHITECTURE.md     架构与设计取舍
   EVAL.md             评测方法论与逐条解读
   ADR.md              关键决策记录（含被推翻的方案）
-  AI_COLLAB.md        与 AI 协作的过程、提示词与验证纪律
   RESUME.md           简历条目 + 面试问答
   BILI_SCRIPT.md      视频选题脚本（逐字符分隔打穿规则这件事怎么讲）
 resume/
